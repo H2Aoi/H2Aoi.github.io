@@ -6,7 +6,7 @@
   <link href="https://h2aoi.top/atom.xml" rel="self"/>
   
   <link href="https://h2aoi.top/"/>
-  <updated>2020-12-18T11:20:49.214Z</updated>
+  <updated>2020-12-18T13:24:21.519Z</updated>
   <id>https://h2aoi.top/</id>
   
   <author>
@@ -15,6 +15,23 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>论如何在Linux环境下优雅地游玩Galgame</title>
+    <link href="https://h2aoi.top/2020/linuxgalgame/"/>
+    <id>https://h2aoi.top/2020/linuxgalgame/</id>
+    <published>2020-12-18T13:01:25.210Z</published>
+    <updated>2020-12-18T13:24:21.519Z</updated>
+    
+    <content type="html"><![CDATA[<p>还是发于酷安，不过这篇有点水，没啥实质性内容，看看就好</p><a id="more"></a><h2 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h2><p>身为一名酷友，熟练的使用各种操作系统一定不是什么难事。windows,macos,linux已经被很多酷友熟练的掌握，这也是一件好事。众所周知，windows是一个适合玩游戏的平台，但是对于linux用户来说，这就是一件难事，尤其是对于linux环境下需要游玩galgame的用户来说，就更痛苦了。因此，我就写了这篇图文，不敢说肯定解决这种问题，可以说是一种探索吧</p><p>我觉得我说的这些大部分酷友都知道</p><h2 id="此图文需要的环境"><a href="#此图文需要的环境" class="headerlink" title="此图文需要的环境"></a>此图文需要的环境</h2><p>我使用的linux发行版为<strong>Ubuntu 18.04.3</strong>，作为一个长期支持版本，我认为它会比19.04更加稳定，更适合我们进行这次的探索。对于其他linux发行版用户来说，我觉得可以举一反三，因此不作其他说明</p><p>图文环境为virtualbox虚拟机，因此可能会出现配置低的情况，请见谅</p><h2 id="探索历程"><a href="#探索历程" class="headerlink" title="探索历程"></a>探索历程</h2><h3 id="使用Virtualbox虚拟机"><a href="#使用Virtualbox虚拟机" class="headerlink" title="使用Virtualbox虚拟机"></a>使用Virtualbox虚拟机</h3><p>galgame作为扎根于windows的游戏，当然是要在windows环境下运行最适合啦。使用虚拟机的方法具体就不说了，都用linux了还会不知道这些吗</p><h3 id="使用Wine"><a href="#使用Wine" class="headerlink" title="使用Wine"></a>使用Wine</h3><p><strong>wine</strong>可以说是linux下运行windows程序的唯一办法了。基于大部分galgame都是exe格式，使用wine也是我们的一个必要选择了</p><p>wine官网： <a href="https://appdb.winehq.org/">https://appdb.winehq.org/</a> </p><p>按照官网的教程安装好wine后，直接来到相应文件夹<img src="https://cdn.jsdelivr.net/gh/H2Aoi/tuchuang@master/img/20201218212231.png" alt="3190d2d289527c4082d6f5e04b243f5e"></p><p>这里选取了几个Galgame：三色绘恋、茸雪、梦末、nekopara vol1。别问我为什么选这些，<del>因为我只有这些</del></p><p>经过我的测试，这几个Galgame中基本没有能运行的,也许是因为这些游戏是steam游戏的原因吧。但是这种方法我并不推荐，因为wine本体兼容性实在是很低啊</p><center>    <img style="border-radius: 0.3125em;    box-shadow: 0 2px 4px 0 rgba(34,36,38,.12),0 2px 10px 0 rgba(34,36,38,.08);"     src="https://cdn.jsdelivr.net/gh/H2Aoi/tuchuang@master/img/20201218210857.png">    <br>    <div style="color:orange; border-bottom: 1px solid #d9d9d9;    display: inline-block;    color: #999;    padding: 2px;">运行失败QAQ</div></center><p>也许某些非steam游戏可以运行，反正其他方法都是基于wine的，为何不装呢</p><h3 id="使用Playonlinux"><a href="#使用Playonlinux" class="headerlink" title="使用Playonlinux"></a>使用Playonlinux</h3><p>Playonlinux是一款基于wine的程序，它比wine兼容性更好</p><p>Playonlinux官网：playonlinux.com</p><p>安装完成后打开，是这个界面</p><p><img src="https://cdn.jsdelivr.net/gh/H2Aoi/tuchuang@master/img/20201218212225.png" alt="b4a5472e588a03d2eb319494fbbb45de"></p><p>选择安装一个程序，再点安装未在列表中的程序</p><p>选择在新虚拟盘中安装程序，输入一个英文名称，再选配置wine<img src="https://cdn.jsdelivr.net/gh/H2Aoi/tuchuang@master/img/20201218212220.png" alt="b4a5472e588a03d2eb319494fbbb45de"></p><p>创建虚拟盘这一步，选择游戏支持的系统位数<img src="https://cdn.jsdelivr.net/gh/H2Aoi/tuchuang@master/img/20201218212213.png" alt="fa39837bf3af110d6ee18df68fca52bf"></p><p>再选择安装文件exe<img src="https://cdn.jsdelivr.net/gh/H2Aoi/tuchuang@master/img/20201218212208.png" alt="5f593d631e35bc97266a2a534c5a7d0e"></p><p>这样应该就能运行了，三色绘恋应该是可以的</p><center>    <img style="border-radius: 0.3125em;    box-shadow: 0 2px 4px 0 rgba(34,36,38,.12),0 2px 10px 0 rgba(34,36,38,.08);"     src="https://cdn.jsdelivr.net/gh/H2Aoi/tuchuang@master/img/20201218211356.png">    <br>    <div style="color:orange; border-bottom: 1px solid #d9d9d9;    display: inline-block;    color: #999;    padding: 2px;">来自贴吧</div></center><p>每一次进入游戏都要<strong>重新设置</strong>一遍，存档都会在的</p><p>根据网友说法，这两款游戏也是能运行的<img src="https://cdn.jsdelivr.net/gh/H2Aoi/tuchuang@master/img/20201218212200.png" alt="185081c52be4424b5ce133e374a56abf"></p><h3 id="使用Steam"><a href="#使用Steam" class="headerlink" title="使用Steam"></a>使用Steam</h3><p>对没错，就是那个G胖的平台Steam。steam平台为linux用户专门开发了steam play这个程序，现在可以说是对linux下游戏最好的一个选择了</p><p>安装完steam后打开进入到设置，勾选“Enable Steam Play for supported titles”和”为所有其他产品启用Steam Play”</p><p><img src="https://cdn.jsdelivr.net/gh/H2Aoi/tuchuang@master/img/20201218212153.png" alt="cc96e90aea5d8569f4a99ab32f1e5452"></p><p>这时你点进自己的游戏，会发现右边会多出一些东西，这就说明你对该游戏启用了Steam Play<img src="https://cdn.jsdelivr.net/gh/H2Aoi/tuchuang@master/img/20201218212144.png" alt="151a488777fc2923e5aeb8415dce4949"></p><p>选择左下角的添加游戏，把自己的游戏添加进去。再在游戏属性里面勾上最后一个<img src="https://cdn.jsdelivr.net/gh/H2Aoi/tuchuang@master/img/20201218212136.png" alt="abcb0fd06fbf1c04c6cf06dcf3d7bd66"></p><p>点击开始就可以打开了（不敢说一定打得开，我也打不开）<img src="https://cdn.jsdelivr.net/gh/H2Aoi/tuchuang@master/img/20201218212129.png" alt="316b40f83ec626d9011c7a175d8395ee"></p><p>由于我的下载速度实在是太慢，只好拿出~~~划时代大作~~~Answer The Question了<img src="https://cdn.jsdelivr.net/gh/H2Aoi/tuchuang@master/img/20201218212122.png" alt="278a7c5a3f3b94c41532e7dd49a7896e"></p><p>可以看到，游戏是可以运行的<img src="https://cdn.jsdelivr.net/gh/H2Aoi/tuchuang@master/img/20201218212117.png" alt="33a3fd3cf7f5d705e0122bb63ec880e1"></p><p>我下载了LoveChoice这款游戏，由于缺少dx11所以无法运行。不过这游戏有Linux版本所以就能运行了。不过我以前试过，相当一部分游戏是可以打开的</p><p>相同的，有很多游戏都可以通过这种方法运行，具体我就不多说了（没下游戏）</p><h3 id="游玩移植版"><a href="#游玩移植版" class="headerlink" title="游玩移植版"></a>游玩移植版</h3><p>这个没试过，应该比用wine运行效率高一点。可以去Linux游戏吧找找</p><h2 id="总结"><a href="#总结" class="headerlink" title="总结"></a>总结</h2><p>经过我的探索，我得出了一个结论：Linux对于Galgame玩家实在是很不友好。我的建议就是干脆装个双系统，虚拟机的效率也没有实体机高。不过既然都用Linux了，一点小折腾算什么呢？不说了，我还是用我的windows10玩Galgame吧</p><p>本文其实是属于探索性质的一篇文章，并没有多少技术含量，大佬误喷我，我又不是一个linux用户</p><p>为了自己心爱的女孩，多折腾一下算什么呢？</p><hr><p>参考链接：<br><a href="https://tieba.baidu.com/f?kz=6076070551&mo_device=1&ssid=0&from=1012852q&uid=0&pu=usm@1,sz@320_1004,ta@iphone_2_7.1_11_11.0&bd_page_type=1&baiduid=2D53185085CFB3F453849739822758D1&tj=h5_mobile_1_0_10_l4&referer=m.baidu.com?pn=0&">链接1</a>   <a href="https://tieba.baidu.com/f?kz=5917002487&mo_device=1&ssid=0&from=1012852q&uid=0&pu=usm@1,sz@320_1004,ta@iphone_2_7.1_11_11.0&bd_page_type=1&baiduid=2D53185085CFB3F453849739822758D1&tj=www_normal_2_0_10_title&referer=m.baidu.com">链接2</a></p>]]></content>
+    
+    
+    <summary type="html">&lt;p&gt;还是发于酷安，不过这篇有点水，没啥实质性内容，看看就好&lt;/p&gt;</summary>
+    
+    
+    
+    
+  </entry>
   
   <entry>
     <title>如何运用云主机开Minecraft官方BDS服务器</title>
