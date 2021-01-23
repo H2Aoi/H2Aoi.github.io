@@ -65,7 +65,7 @@
     <link href="https://h2aoi.top/2020/minecraftserver/"/>
     <id>https://h2aoi.top/2020/minecraftserver/</id>
     <published>2020-12-18T10:16:10.125Z</published>
-    <updated>2021-01-09T07:39:06.100Z</updated>
+    <updated>2021-01-23T12:06:48.349Z</updated>
     
     <content type="html"><![CDATA[<p>本文还是第一次发于<a href="https://www.coolapk.com/feed/10242114?shareKey=NzU0NDBjYzI0MGJiNWZkYzgyY2Q~&shareUid=1171483&shareFrom=com.coolapk.market_11.0-beta6">酷安</a>，不过做了点修改，酷安那边就不改了</p><a id="more"></a><h2 id="云主机的选购"><a href="#云主机的选购" class="headerlink" title="云主机的选购"></a>云主机的选购</h2><p>我自己开服用的是<strong>阿里云</strong>的学生机，一个月才10块钱，还是可以的，虽然有点卡。。。。不过有钱的话，阿里云腾讯云都行的</p><p>百度<del>云翼计划</del><strong>开发者成长计划</strong>或者<a href="https://developer.aliyun.com/plan/grow-up">传送门</a>，点第一个<img src="https://cdn.jsdelivr.net/gh/H2Aoi/tuchuang@master/img/20201218185555.png"></p><p>这个只要低于24岁就可以买，还是比较好的</p><p>选系统镜像，系统选Ubuntu18.04（最新版本即可）或者Centos（需要自行解决依赖）</p><p>购买之后进入ssh</p><h2 id="ssh的配置"><a href="#ssh的配置" class="headerlink" title="ssh的配置"></a>ssh的配置</h2><p>手机可以选择<strong>juicessh</strong>，windows可以选<strong>putty</strong>，linux就用<strong>终端</strong>吧</p><p>这里用juicessh做示范</p><p><img src="https://cdn.jsdelivr.net/gh/H2Aoi/tuchuang@master/img/20201218185538.jpg" alt="31230a38fb05e2f11d4aff8671d6c42b"></p><p>点击连接，然后变成这样<img src="https://cdn.jsdelivr.net/gh/H2Aoi/tuchuang@master/img/20201218185549.jpg" alt="3b695643d11e49bd9af2fb68589880ca"></p><p>地址填云服务器的地址，认证就新建一个认证，用户名填root，密码填设定的密码</p><p>然后就可以连接啦！记得开放22端口，虽然默认是开着的</p><h2 id="开服！"><a href="#开服！" class="headerlink" title="开服！"></a>开服！</h2><p>连好ssh，大概是这样的<img src="https://cdn.jsdelivr.net/gh/H2Aoi/tuchuang@master/img/20201218185611.jpg" alt="aa6add65c9ae5d6ce4f6fe046af0d3a8"></p><p>这边建议先去添加一些软件源，方法自行百度，这里就不写出来了</p><p>接下来输入指令</p><pre><code class="bash">sudo apt-get updatesudo apt-get install libcurl3 build-essential</code></pre><p>这个玩意需不需要其实我也不太清楚，不过防范于未然嘛</p><p>然后接着输入</p><pre><code class="shell">wget https://minecraft.azureedge.net/bin-linux/bedrock-server-1.16.201.02.zip</code></pre><p>下不动的话可以用<strong>scp</strong>指令传上去，具体自己百度。这个链接会有变化，可以到[这里](<a href="https://www.minecraft.net/en-us/download/server/bedrock">Minecraft Server Download | Minecraft</a>)获取（选Ubuntu那个）</p><p>解压后进入目录，输入</p><pre><code class="shell">LD_LIBRARY_PATH=. ./bedrock_server</code></pre><p>大概这样就可以了，我开了很久所以是这样的<img src="https://cdn.jsdelivr.net/gh/H2Aoi/tuchuang@master/img/20201218185618.jpg" alt="fd3ab313ee7e7b21a91d21b1a23326d0"></p><p>然后。。。就好了。。。才怪</p><p>进入云服务器控制台安全组</p><p>添加图里<strong>最上面</strong>的两条规则（也许只用UDP）<img src="https://cdn.jsdelivr.net/gh/H2Aoi/tuchuang@master/img/20201218185626.jpeg" alt="e9c4bcf40c012d99dede843b8f396a09"></p><p>然后是真的好了，也需要重启一下</p><hr><p>如果想要在退出ssh的时候保持运行，就用<strong>screen</strong>吧！</p><p>用如下指令</p><pre><code class="shell">sudo apt-get install screenscreen</code></pre><p>挂起就按Ctrl+A+D</p><p>这样退出ssh后也可运行</p>]]></content>
     
@@ -74,8 +74,10 @@
     
     
     
-    <category term="服务器" scheme="https://h2aoi.top/categories/%E6%9C%8D%E5%8A%A1%E5%99%A8/"/>
+    <category term="游戏" scheme="https://h2aoi.top/categories/%E6%B8%B8%E6%88%8F/"/>
     
+    
+    <category term="Linux" scheme="https://h2aoi.top/tags/Linux/"/>
     
     <category term="Minecraft" scheme="https://h2aoi.top/tags/Minecraft/"/>
     
@@ -130,23 +132,6 @@
   </entry>
   
   <entry>
-    <title>关于我</title>
-    <link href="https://h2aoi.top/about.html"/>
-    <id>https://h2aoi.top/about.html</id>
-    <published>2020-07-13T12:46:25.000Z</published>
-    <updated>2021-01-09T05:55:54.803Z</updated>
-    
-    <content type="html"><![CDATA[<p>对于我自身的一些介绍</p><a id="more"></a><iframe frameborder="no" border="0" marginwidth="0" marginheight="0" style="width:914.8px;height:86px" src="//music.163.com/outchain/player?type=2&id=1484564378&auto=1&height=66"></iframe><h2 id="我是谁"><a href="#我是谁" class="headerlink" title="我是谁"></a>我是谁</h2><p>H2Aoi，又称氢化葵</p><p>其实H2Aoi这个名字的正确写法是<strong>H<sub>2</sub>Aoi</strong>，即2个H<sup>+</sup>与1个Aoi<sup>2-</sup>离子组合成的化合物。</p><p>不过上下角标这个实在是打不出来（Markdown里当然可以），就变成了H2Aoi，毕竟有一句话这么说来着</p><blockquote><p><em>其实地上本没有路,走的人多了</em>,<em>也便成了路</em>   ——鲁迅</p></blockquote><p>一般平台的名字就叫这个，就酷安不一样。在酷安，我的用户名是<strong>泽渡雫</strong></p><p>泽渡雫，即沢渡雫，<strong>美少女万華鏡 忘れな草と永遠の少女</strong>的女主角<img src="https://cdn.jsdelivr.net/gh/H2Aoi/tuchuang@master/img/20201218204012.png" alt="Snipaste_2020-12-18_20-11-19"></p><p>当年（2017年）玩完万华镜2后我就喜欢上了泽渡雫，所以酷安id就取了她的名字</p><p><font size =5><strong>不过不要以id取人！！！！</strong></font></p><h2 id="我想做什么"><a href="#我想做什么" class="headerlink" title="我想做什么"></a>我想做什么</h2><p>Galgame爱好者，所以blog里的文章大部分都会是Galgame的，不过也会发点别的东西</p><details><summary>想玩的Galgame</summary>恋彼女（在玩了在玩了）</br>千恋万花</br>星光咖啡馆与死神之蝶</br>爱上火车-Pure Station-</br>爱上火车-Last Run!!-</br>爱上火车-Last Run!!-</br>NEKOPARA Vol.1&2&4</br>RIDDLE JOKER</br>泡沫冬景</br>还有很多很多......</details>]]></content>
-    
-    
-    <summary type="html">&lt;p&gt;对于我自身的一些介绍&lt;/p&gt;</summary>
-    
-    
-    
-    
-  </entry>
-  
-  <entry>
     <title>友情链接</title>
     <link href="https://h2aoi.top/PY.html"/>
     <id>https://h2aoi.top/PY.html</id>
@@ -157,6 +142,23 @@
     
     
     <summary type="html">&lt;p&gt;真的是友情链接&lt;/p&gt;</summary>
+    
+    
+    
+    
+  </entry>
+  
+  <entry>
+    <title>关于我</title>
+    <link href="https://h2aoi.top/about.html"/>
+    <id>https://h2aoi.top/about.html</id>
+    <published>2020-07-13T12:46:25.000Z</published>
+    <updated>2021-01-09T05:55:54.803Z</updated>
+    
+    <content type="html"><![CDATA[<p>对于我自身的一些介绍</p><a id="more"></a><iframe frameborder="no" border="0" marginwidth="0" marginheight="0" style="width:914.8px;height:86px" src="//music.163.com/outchain/player?type=2&id=1484564378&auto=1&height=66"></iframe><h2 id="我是谁"><a href="#我是谁" class="headerlink" title="我是谁"></a>我是谁</h2><p>H2Aoi，又称氢化葵</p><p>其实H2Aoi这个名字的正确写法是<strong>H<sub>2</sub>Aoi</strong>，即2个H<sup>+</sup>与1个Aoi<sup>2-</sup>离子组合成的化合物。</p><p>不过上下角标这个实在是打不出来（Markdown里当然可以），就变成了H2Aoi，毕竟有一句话这么说来着</p><blockquote><p><em>其实地上本没有路,走的人多了</em>,<em>也便成了路</em>   ——鲁迅</p></blockquote><p>一般平台的名字就叫这个，就酷安不一样。在酷安，我的用户名是<strong>泽渡雫</strong></p><p>泽渡雫，即沢渡雫，<strong>美少女万華鏡 忘れな草と永遠の少女</strong>的女主角<img src="https://cdn.jsdelivr.net/gh/H2Aoi/tuchuang@master/img/20201218204012.png" alt="Snipaste_2020-12-18_20-11-19"></p><p>当年（2017年）玩完万华镜2后我就喜欢上了泽渡雫，所以酷安id就取了她的名字</p><p><font size =5><strong>不过不要以id取人！！！！</strong></font></p><h2 id="我想做什么"><a href="#我想做什么" class="headerlink" title="我想做什么"></a>我想做什么</h2><p>Galgame爱好者，所以blog里的文章大部分都会是Galgame的，不过也会发点别的东西</p><details><summary>想玩的Galgame</summary>恋彼女（在玩了在玩了）</br>千恋万花</br>星光咖啡馆与死神之蝶</br>爱上火车-Pure Station-</br>爱上火车-Last Run!!-</br>爱上火车-Last Run!!-</br>NEKOPARA Vol.1&2&4</br>RIDDLE JOKER</br>泡沫冬景</br>还有很多很多......</details>]]></content>
+    
+    
+    <summary type="html">&lt;p&gt;对于我自身的一些介绍&lt;/p&gt;</summary>
     
     
     
