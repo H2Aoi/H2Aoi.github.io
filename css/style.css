@@ -610,6 +610,125 @@ article.nexmoe-py ul li img.lazyloaded {
     width: calc(33.3333333333% - 10px);
   }
 }
+.DarkMode .l_main #comments .vcards .vhead .vsys {
+  background: none;
+}
+.DarkMode .l_main #comments .vcards .vcontent p {
+  color: #888;
+}
+.DarkMode .l_main #comments .vinput {
+  color: #dbdbe2;
+}
+.DarkMode .l_main #comments #valine_container .vwrap {
+  border: 1px dashed #fff;
+}
+.DarkMode .l_main #comments #valine_container .vwrap .vemojis {
+  background: none;
+}
+.DarkMode .l_main .post section .title a {
+  color: #dbdbe2;
+}
+.DarkMode .l_main .article .prev-next >a {
+  background: #444;
+}
+.DarkMode .widget {
+  background-color: #292a2d;
+}
+.DarkMode .widget >.content ul >li a {
+  color: rgba(255,255,255,0.6) !important;
+}
+.DarkMode .widget >.content ul >li a:hover {
+  color: #63cbfc !important;
+}
+.DarkMode .widget header {
+  color: #44d7b6;
+}
+.DarkMode .widget header a {
+  color: #44d7b6;
+}
+.DarkMode .container {
+  background-color: #292a2d;
+  box-shadow: 0 1px 3px 0 rgba(6,6,6,0.28);
+}
+.DarkMode .white-box {
+  background-color: #292a2d;
+}
+.DarkMode .article code {
+  background: rgba(246,246,246,0.388) !important;
+  border: none;
+}
+.DarkMode .article blockquote {
+  background: rgba(246,246,246,0.388);
+}
+.DarkMode .article h3,
+.DarkMode .article h4,
+.DarkMode .article h5 {
+  color: #dbdbe2;
+}
+.DarkMode div.note {
+  background: rgba(68,68,68,0.459) !important;
+}
+.DarkMode details {
+  border: none;
+  background: none;
+}
+.DarkMode details >summary {
+  background: #444;
+}
+.DarkMode .l_header .m_search .input {
+  background-color: #292a2d;
+}
+.DarkMode .l_header .wrapper .title {
+  color: #dbdbe2;
+}
+.DarkMode .l_header .switcher >li >a {
+  color: #44d7b6 !important;
+}
+.DarkMode #archive-page .archive .archive-year h2 {
+  color: #fff;
+}
+.DarkMode #archive-page .archive .archive_page .archive-post .title {
+  color: #dbdbe2;
+}
+.DarkMode #RightDownBtn {
+  background: none;
+}
+.DarkMode h1 {
+  color: #dbdbe2;
+}
+.DarkMode ul.list-v {
+  background: #292a2d;
+}
+.DarkMode .comments hr {
+  color: #666;
+}
+.DarkMode .comments .article p[ct] {
+  color: #dbdbe2;
+}
+.DarkMode div.tabs {
+  background: #666;
+}
+.DarkMode .new-meta-item p {
+  color: #888 !important;
+}
+.DarkMode .highlight>table {
+  background: #282c34;
+}
+.DarkMode .gutter {
+  background: #282c34 !important;
+  background-color: #282c34 !important;
+}
+.DarkMode .highlight figcaption {
+  background-color: #21252b;
+}
+.DarkMode .highlight {
+  border: 1px solid #21252b !important;
+  background: #282c34;
+}
+.DarkMode .highlight pre .line,
+.DarkMode .highlight pre .params {
+  color: rgba(158,142,142,0.9);
+}
 *,
 *::after,
 *::before {
