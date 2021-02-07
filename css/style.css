@@ -549,7 +549,7 @@ article.nexmoe-py ul li > a {
   display: block;
   position: relative;
 }
-article.nexmoe-py ul li > a:before {
+article.nexmoe-py ul li > a::before {
   background-image: -moz-linear-gradient(to top, rgba(16,16,16,0.35) 25%, rgba(16,16,16,0) 100%);
   background-image: -webkit-linear-gradient(to top, rgba(16,16,16,0.35) 25%, rgba(16,16,16,0) 100%);
   background-image: -ms-linear-gradient(to top, rgba(16,16,16,0.35) 25%, rgba(16,16,16,0) 100%);
