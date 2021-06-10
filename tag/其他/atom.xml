@@ -1,0 +1,32 @@
+<?xml version="1.0"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+    <id>https://blog.h2aoi.top</id>
+    <title>H2AoiのBlog • Posts by &#34;其他&#34; tag</title>
+    <link href="https://blog.h2aoi.top" />
+    <updated>2020-07-12T16:00:00.000Z</updated>
+    <category term="Galgame" />
+    <category term="游戏" />
+    <category term="游戏资源" />
+    <category term="其他" />
+    <category term="Linux" />
+    <category term="Minecraft" />
+    <category term="服务器" />
+    <entry>
+        <id>https://blog.h2aoi.top/donate.html</id>
+        <title>赞助我</title>
+        <link rel="alternate" href="https://blog.h2aoi.top/donate.html"/>
+        <content type="html">&lt;link rel=&#34;stylesheet&#34; class=&#34;aplayer-secondary-style-marker&#34; href=&#34;\assets\css\APlayer.min.css&#34;&gt;&lt;script src=&#34;\assets\js\APlayer.min.js&#34; class=&#34;aplayer-secondary-script-marker&#34;&gt;&lt;/script&gt;&lt;script class=&#34;meting-secondary-script-marker&#34; src=&#34;\assets\js\Meting.min.js&#34;&gt;&lt;/script&gt;&lt;p&gt;懂得都懂&lt;/p&gt;
+&lt;span id=&#34;more&#34;&gt;&lt;/span&gt;
+&lt;h2 id=&#34;爱发电&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#爱发电&#34;&gt;#&lt;/a&gt; 爱发电&lt;/h2&gt;
+&lt;p&gt;&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly9hZmRpYW4ubmV0L0BIMkFvaQ==&#34;&gt;https://afdian.net/@H2Aoi&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;（不推荐，手续费过高）&lt;/p&gt;
+&lt;h2 id=&#34;二维码&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#二维码&#34;&gt;#&lt;/a&gt; 二维码&lt;/h2&gt;
+&lt;p&gt;&lt;img data-src=&#34;https://cdn.jsdelivr.net/gh/H2Aoi/tuchuang@master/img/20210326190019.jpg&#34; alt=&#34;6d0a98551ef1f593&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img data-src=&#34;https://cdn.jsdelivr.net/gh/H2Aoi/tuchuang@master/img/20210326190025.jpg&#34; alt=&#34;-6744639833878665&#34;&gt;&lt;/p&gt;
+&lt;h2 id=&#34;赞助单&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#赞助单&#34;&gt;#&lt;/a&gt; 赞助单&lt;/h2&gt;
+&lt;p&gt;还没有人赞助我 Orz&lt;/p&gt;
+</content>
+        <category term="其他" />
+        <updated>2020-07-12T16:00:00.000Z</updated>
+    </entry>
+</feed>

@@ -2,23 +2,23 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>https://blog.h2aoi.top/PY.html</loc>
+    <loc>https://blog.h2aoi.top/about.html</loc>
     
     <lastmod>2021-06-10</lastmod>
     
   </url>
   
   <url>
-    <loc>https://blog.h2aoi.top/about.html</loc>
+    <loc>https://blog.h2aoi.top/2020/atriostgame/</loc>
     
-    <lastmod>2021-05-22</lastmod>
+    <lastmod>2021-06-10</lastmod>
     
   </url>
   
   <url>
-    <loc>https://blog.h2aoi.top/2020/atriostgame/</loc>
+    <loc>https://blog.h2aoi.top/PY.html</loc>
     
-    <lastmod>2021-05-08</lastmod>
+    <lastmod>2021-06-10</lastmod>
     
   </url>
   
@@ -109,6 +109,13 @@
   </url>
   
   <url>
+    <loc>https://blog.h2aoi.top/tags/%E5%85%B6%E4%BB%96/</loc>
+    <lastmod>2021-06-10</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://blog.h2aoi.top/tags/Linux/</loc>
     <lastmod>2021-06-10</lastmod>
     <changefreq>daily</changefreq>
@@ -129,13 +136,6 @@
     <priority>0.6</priority>
   </url>
   
-  <url>
-    <loc>https://blog.h2aoi.top/tags/%E5%85%B6%E4%BB%96/</loc>
-    <lastmod>2021-06-10</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
 
   
   <url>
@@ -146,14 +146,14 @@
   </url>
   
   <url>
-    <loc>https://blog.h2aoi.top/categories/%E6%B8%B8%E6%88%8F/</loc>
+    <loc>https://blog.h2aoi.top/categories/%E5%85%B6%E4%BB%96/</loc>
     <lastmod>2021-06-10</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
-    <loc>https://blog.h2aoi.top/categories/%E5%85%B6%E4%BB%96/</loc>
+    <loc>https://blog.h2aoi.top/categories/%E6%B8%B8%E6%88%8F/</loc>
     <lastmod>2021-06-10</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
