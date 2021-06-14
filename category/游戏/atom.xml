@@ -3,7 +3,7 @@
     <id>https://blog.h2aoi.top</id>
     <title> • Posts by &#34;游戏&#34; category</title>
     <link href="https://blog.h2aoi.top" />
-    <updated>2020-12-18T10:16:10.125Z</updated>
+    <updated>2021-06-14T13:16:57.903Z</updated>
     <category term="Galgame" />
     <category term="游戏" />
     <category term="游戏资源" />
@@ -11,6 +11,54 @@
     <category term="Linux" />
     <category term="Minecraft" />
     <category term="服务器" />
+    <entry>
+        <id>https://blog.h2aoi.top/2021/minecraftserver2/</id>
+        <title>如何运用云主机开MinecraftJava版服务器</title>
+        <link rel="alternate" href="https://blog.h2aoi.top/2021/minecraftserver2/"/>
+        <content type="html">&lt;link rel=&#34;stylesheet&#34; class=&#34;aplayer-secondary-style-marker&#34; href=&#34;\assets\css\APlayer.min.css&#34;&gt;&lt;script src=&#34;\assets\js\APlayer.min.js&#34; class=&#34;aplayer-secondary-script-marker&#34;&gt;&lt;/script&gt;&lt;script class=&#34;meting-secondary-script-marker&#34; src=&#34;\assets\js\Meting.min.js&#34;&gt;&lt;/script&gt;&lt;p&gt;基岩版开服请跳转另一篇文章 [传送门](&lt;a href=&#34;https://blog.h2aoi.top/2020/minecraftserver/&#34;&gt;如何运用云主机开 Minecraft 官方 BDS 服务器 - (h2aoi.top)&lt;/a&gt;)&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;云主机的选购&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#云主机的选购&#34;&gt;#&lt;/a&gt; 云主机的选购&lt;/h2&gt;
+&lt;p&gt;阿里云和腾讯云都行，我个人用的是腾讯云（因为比阿里云便宜一点）&lt;/p&gt;
+&lt;p&gt;这两家都有学生计划，这里以腾讯云的学生计划为例&lt;img src=&#34;https://cdn.jsdelivr.net/gh/H2Aoi/tuchuang@master/img/20210614200724.png&#34; alt=&#34;Snipaste_2021-06-14_20-07-08&#34;&gt;&lt;/p&gt;
+&lt;p&gt;至于应该买什么配置的服务器，看&lt;strong&gt;服务器的模组 / 人数情况&lt;/strong&gt;，我整的是最下面那个 2 核 4G 的，但是带宽有点低导致有点不那么流畅（tp 时会卡一会）所以我把带宽升级到了 5M&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;注意：升级带宽后无法再享受优惠续费，请根据自己需要选择&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;系统镜像选择 centos（版本选哪个都差不多）&lt;/p&gt;
+&lt;p&gt;购买后进入后台&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;配置ssh&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#配置ssh&#34;&gt;#&lt;/a&gt; 配置 ssh&lt;/h2&gt;
+&lt;p&gt;使用的软件因人而异，这里使用 Termius~~（因为界面好看）~~&lt;/p&gt;
+&lt;p&gt;Termius 官网:&lt;a href=&#34;https://www.termius.com&#34;&gt;https://www.termius.com&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Address 框输入自己的服务器公网 ip，username 填 root，password 填自己设定的密码，完成后点击 save&lt;/p&gt;
+&lt;p&gt;双击添加的 host 后连接进入，界面应该是这样的&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://cdn.jsdelivr.net/gh/H2Aoi/tuchuang@master/img/20210614202502.png&#34; alt=&#34;Snipaste_2021-06-14_20-20-35&#34;&gt;&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;开服&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#开服&#34;&gt;#&lt;/a&gt; 开服！&lt;/h2&gt;
+&lt;h3 id=&#34;安装java&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#安装java&#34;&gt;#&lt;/a&gt; 安装 java&lt;/h3&gt;
+&lt;figure class=&#34;highlight bash&#34;&gt;&lt;figcaption data-lang=&#34;bash&#34;&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;java    &lt;span class=&#34;token comment&#34;&gt;#查看是否已安装 java&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;2&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;yum list java*    &lt;span class=&#34;token comment&#34;&gt;#查看可用的 java 版本&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;3&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;yum -y &lt;span class=&#34;token function&#34;&gt;install&lt;/span&gt; java-latest-openjdk.x86_64&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;p&gt;安装完成后运行下这玩意看看是否安装成功&lt;/p&gt;
+&lt;figure class=&#34;highlight bash&#34;&gt;&lt;figcaption data-lang=&#34;bash&#34;&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;java -version&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;p&gt;出现这个就是成功了&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://cdn.jsdelivr.net/gh/H2Aoi/tuchuang@master/img/20210614204821.png&#34; alt=&#34;Snipaste_2021-06-14_20-48-05&#34;&gt;&lt;/p&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;下载服务端后运行&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#下载服务端后运行&#34;&gt;#&lt;/a&gt; 下载服务端后运行&lt;/h3&gt;
+&lt;p&gt;去这里面下载自己需要版本的服务端 https://mcversions.net/&lt;/p&gt;
+&lt;p&gt;下载获得 server.jar 后打开 Termius 自带的 SFTP，在 /opt 下新建文件夹 mc，把 server.jar 放入文件夹&lt;/p&gt;
+&lt;p&gt;接下来执行&lt;/p&gt;
+&lt;figure class=&#34;highlight bash&#34;&gt;&lt;figcaption data-lang=&#34;bash&#34;&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token builtin class-name&#34;&gt;cd&lt;/span&gt; /opt/mc   &lt;span class=&#34;token comment&#34;&gt;#进入 /opt/mc&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;2&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;java -Xmx2048M -Xms1024M -jar server.jar nogui   &lt;span class=&#34;token comment&#34;&gt;#此处 xmx 是最大内存，xms 是最低内存，根据自己购买的服务器实际情况填&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;p&gt;接下来服务器会崩溃，不用担心&lt;/p&gt;
+&lt;p&gt;用 SFTP 进入 mc 文件夹，找到 eula.txt，下到本地修改，把 eula = false 改成 eula = true，然后传上去&lt;/p&gt;
+&lt;p&gt;然后重复执行上面的命令&lt;/p&gt;
+&lt;p&gt;停止服务器直接输入 stop 回车即可&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;记得去腾讯云的后台安全组内把开放的端口添加进去&lt;/strong&gt;&lt;/p&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;让服务器保持后台运行&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#让服务器保持后台运行&#34;&gt;#&lt;/a&gt; 让服务器保持后台运行&lt;/h3&gt;
+&lt;figure class=&#34;highlight bash&#34;&gt;&lt;figcaption data-lang=&#34;bash&#34;&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;yum -y &lt;span class=&#34;token function&#34;&gt;install&lt;/span&gt; &lt;span class=&#34;token function&#34;&gt;screen&lt;/span&gt;   &lt;span class=&#34;token comment&#34;&gt;#安装 screen&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;2&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token function&#34;&gt;screen&lt;/span&gt;   &lt;span class=&#34;token comment&#34;&gt;#创建一个终端&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;p&gt;在该终端内执行开服的命令，按 ctrl+a+d 即可挂起终端，服务器就可以后台运行了&lt;/p&gt;
+&lt;p&gt;如果想要切回终端，输入以下命令&lt;/p&gt;
+&lt;figure class=&#34;highlight bash&#34;&gt;&lt;figcaption data-lang=&#34;bash&#34;&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token function&#34;&gt;screen&lt;/span&gt; -ls   &lt;span class=&#34;token comment&#34;&gt;#查看正在运行的终端&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;2&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token comment&#34;&gt;#下面是示例&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;3&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;There is a &lt;span class=&#34;token function&#34;&gt;screen&lt;/span&gt; on:&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;4&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;        &lt;span class=&#34;token number&#34;&gt;14407&lt;/span&gt;.pts-0.VM-0-16-centos      &lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;Detached&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;5&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token number&#34;&gt;1&lt;/span&gt; Socket &lt;span class=&#34;token keyword&#34;&gt;in&lt;/span&gt; /var/run/screen/S-root.&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;6&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token comment&#34;&gt;#可能会看到上面的内容&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;7&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token function&#34;&gt;screen&lt;/span&gt; -r &lt;span class=&#34;token number&#34;&gt;14407&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;h3 id=&#34;服务器的简单配置修改&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#服务器的简单配置修改&#34;&gt;#&lt;/a&gt; 服务器的简单配置修改&lt;/h3&gt;
+&lt;p&gt;把 mc 文件夹内的 server.properties 下载到本地，可以对服务器名称等进行修改，详情请自行百度&lt;/p&gt;
+</content>
+        <category term="Linux" />
+        <category term="Minecraft" />
+        <category term="服务器" />
+        <updated>2021-06-14T13:16:57.903Z</updated>
+    </entry>
     <entry>
         <id>https://blog.h2aoi.top/2020/minecraftserver/</id>
         <title>如何运用云主机开Minecraft官方BDS服务器</title>
