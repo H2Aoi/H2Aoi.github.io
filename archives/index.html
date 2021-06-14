@@ -29,9 +29,9 @@
 <meta property="article:author" content="H2Aoi">
 <meta name="twitter:card" content="summary">
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/combine/npm/highlight.js@9.15.8/styles/atom-one-dark.css,npm/justifiedGallery@3.8.1/dist/css/justifiedGallery.min.css,gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.css,npm/hexo-theme-nexmoe@latest/source/lib/mdui_043tiny/css/mdui.css,npm/hexo-theme-nexmoe@latest/source/lib/iconfont/iconfont.css?v=233" crossorigin>
-  <link rel="stylesheet" href="/css/style.css?v=1623676668837">
+  <link rel="stylesheet" href="/css/style.css?v=1623677562892">
   
-  <link rel="stylesheet" href="/lib/iconfont/iconfont.css?v=1623676668837">
+  <link rel="stylesheet" href="/lib/iconfont/iconfont.css?v=1623677562892">
 <meta name="generator" content="Hexo 5.4.0"><link rel="alternate" href="/atom.xml" title="null" type="application/atom+xml">
 </head>
 
@@ -192,51 +192,13 @@
 
         <div class="nexmoe-post-meta nexmoe-rainbow">
             <a><i class="nexmoefont icon-calendar-fill"></i>2021年06月14日</a>
-            <a><i class="nexmoefont icon-areachart"></i>708 字</a>
-            <a><i class="nexmoefont icon-time-circle-fill"></i>大概 3 分钟</a>
+            <a><i class="nexmoefont icon-areachart"></i>691 字</a>
+            <a><i class="nexmoefont icon-time-circle-fill"></i>大概 2 分钟</a>
         </div>
 
         <article>
             
-                <p>基岩版开服请跳转另一篇文章 [传送门](<a href="https://blog.h2aoi.top/2020/minecraftserver/">如何运用云主机开 Minecraft 官方 BDS 服务器 - (h2aoi.top)</a>)</p>
-<hr>
-<h2 id="云主机的选购"><a class="markdownIt-Anchor" href="#云主机的选购">#</a> 云主机的选购</h2>
-<p>阿里云和腾讯云都行，我个人用的是腾讯云（因为比阿里云便宜一点）</p>
-<p>这两家都有学生计划，这里以腾讯云的学生计划为例<img data-fancybox="gallery" data-sizes="auto" data-src="https://cdn.jsdelivr.net/gh/H2Aoi/tuchuang@master/img/20210614200724.png" alt="Snipaste_2021-06-14_20-07-08" class="lazyload"></p>
-<p>至于应该买什么配置的服务器，看<strong>服务器的模组 / 人数情况</strong>，我整的是最下面那个 2 核 4G 的，但是带宽有点低导致有点不那么流畅（tp 时会卡一会）所以我把带宽升级到了 5M</p>
-<p><strong>注意：升级带宽后无法再享受优惠续费，请根据自己需要选择</strong></p>
-<p>系统镜像选择 centos（版本选哪个都差不多）</p>
-<p>购买后进入后台</p>
-<hr>
-<h2 id="配置ssh"><a class="markdownIt-Anchor" href="#配置ssh">#</a> 配置 ssh</h2>
-<p>使用的软件因人而异，这里使用 Termius~~（因为界面好看）~~</p>
-<p>Termius 官网:<a target="_blank" rel="noopener" href="https://www.termius.com">https://www.termius.com</a></p>
-<p>Address 框输入自己的服务器公网 ip，username 填 root，password 填自己设定的密码，完成后点击 save</p>
-<p>双击添加的 host 后连接进入，界面应该是这样的</p>
-<p><img data-fancybox="gallery" data-sizes="auto" data-src="https://cdn.jsdelivr.net/gh/H2Aoi/tuchuang@master/img/20210614202502.png" alt="Snipaste_2021-06-14_20-20-35" class="lazyload"></p>
-<hr>
-<h2 id="开服"><a class="markdownIt-Anchor" href="#开服">#</a> 开服！</h2>
-<h3 id="安装java"><a class="markdownIt-Anchor" href="#安装java">#</a> 安装 java</h3>
-<figure class="highlight bash"><figcaption data-lang="bash"></figcaption><table><tr><td data-num="1"></td><td><pre>java    <span class="token comment">#查看是否已安装 java</span></pre></td></tr><tr><td data-num="2"></td><td><pre>yum list java*    <span class="token comment">#查看可用的 java 版本</span></pre></td></tr><tr><td data-num="3"></td><td><pre>yum -y <span class="token function">install</span> java-latest-openjdk.x86_64</pre></td></tr></table></figure><p>安装完成后运行下这玩意看看是否安装成功</p>
-<figure class="highlight bash"><figcaption data-lang="bash"></figcaption><table><tr><td data-num="1"></td><td><pre>java -version</pre></td></tr></table></figure><p>出现这个就是成功了</p>
-<p><img data-fancybox="gallery" data-sizes="auto" data-src="https://cdn.jsdelivr.net/gh/H2Aoi/tuchuang@master/img/20210614204821.png" alt="Snipaste_2021-06-14_20-48-05" class="lazyload"></p>
-<hr>
-<h3 id="下载服务端后运行"><a class="markdownIt-Anchor" href="#下载服务端后运行">#</a> 下载服务端后运行</h3>
-<p>去这里面下载自己需要版本的服务端 https://mcversions.net/</p>
-<p>下载获得 server.jar 后打开 Termius 自带的 SFTP，在 /opt 下新建文件夹 mc，把 server.jar 放入文件夹</p>
-<p>接下来执行</p>
-<figure class="highlight bash"><figcaption data-lang="bash"></figcaption><table><tr><td data-num="1"></td><td><pre><span class="token builtin class-name">cd</span> /opt/mc   <span class="token comment">#进入 /opt/mc</span></pre></td></tr><tr><td data-num="2"></td><td><pre>java -Xmx2048M -Xms1024M -jar server.jar nogui   <span class="token comment">#此处 xmx 是最大内存，xms 是最低内存，根据自己购买的服务器实际情况填</span></pre></td></tr></table></figure><p>接下来服务器会崩溃，不用担心</p>
-<p>用 SFTP 进入 mc 文件夹，找到 eula.txt，下到本地修改，把 eula = false 改成 eula = true，然后传上去</p>
-<p>然后重复执行上面的命令</p>
-<p>停止服务器直接输入 stop 回车即可</p>
-<p><strong>记得去腾讯云的后台安全组内把开放的端口添加进去</strong></p>
-<hr>
-<h3 id="让服务器保持后台运行"><a class="markdownIt-Anchor" href="#让服务器保持后台运行">#</a> 让服务器保持后台运行</h3>
-<figure class="highlight bash"><figcaption data-lang="bash"></figcaption><table><tr><td data-num="1"></td><td><pre>yum -y <span class="token function">install</span> <span class="token function">screen</span>   <span class="token comment">#安装 screen</span></pre></td></tr><tr><td data-num="2"></td><td><pre><span class="token function">screen</span>   <span class="token comment">#创建一个终端</span></pre></td></tr></table></figure><p>在该终端内执行开服的命令，按 ctrl+a+d 即可挂起终端，服务器就可以后台运行了</p>
-<p>如果想要切回终端，输入以下命令</p>
-<figure class="highlight bash"><figcaption data-lang="bash"></figcaption><table><tr><td data-num="1"></td><td><pre><span class="token function">screen</span> -ls   <span class="token comment">#查看正在运行的终端</span></pre></td></tr><tr><td data-num="2"></td><td><pre><span class="token comment">#下面是示例</span></pre></td></tr><tr><td data-num="3"></td><td><pre>There is a <span class="token function">screen</span> on:</pre></td></tr><tr><td data-num="4"></td><td><pre>        <span class="token number">14407</span>.pts-0.VM-0-16-centos      <span class="token punctuation">(</span>Detached<span class="token punctuation">)</span></pre></td></tr><tr><td data-num="5"></td><td><pre><span class="token number">1</span> Socket <span class="token keyword">in</span> /var/run/screen/S-root.</pre></td></tr><tr><td data-num="6"></td><td><pre><span class="token comment">#可能会看到上面的内容</span></pre></td></tr><tr><td data-num="7"></td><td><pre><span class="token function">screen</span> -r <span class="token number">14407</span></pre></td></tr></table></figure><h3 id="服务器的简单配置修改"><a class="markdownIt-Anchor" href="#服务器的简单配置修改">#</a> 服务器的简单配置修改</h3>
-<p>把 mc 文件夹内的 server.properties 下载到本地，可以对服务器名称等进行修改，详情请自行百度</p>
-
+                <p>基岩版开服请跳转另一篇文章<a href="https://blog.h2aoi.top/2020/minecraftserver/">传送门</a></p>
             
         </article>
     </div>
@@ -479,7 +441,7 @@
 <script src="https://cdn.jsdelivr.net/gh/xtaodada/xtaodada.github.io@0.0.2/copy.js"></script>
  
 
-<script async src="/js/app.js?v=1623676668838"></script>
+<script async src="/js/app.js?v=1623677562894"></script>
 
 <script src="https://cdn.jsdelivr.net/npm/justifiedGallery@3.8.1/dist/js/jquery.justifiedGallery.min.js"></script>
 <script>

@@ -15,7 +15,8 @@
         <id>https://blog.h2aoi.top/2021/minecraftserver2/</id>
         <title>如何运用云主机开MinecraftJava版服务器</title>
         <link rel="alternate" href="https://blog.h2aoi.top/2021/minecraftserver2/"/>
-        <content type="html">&lt;link rel=&#34;stylesheet&#34; class=&#34;aplayer-secondary-style-marker&#34; href=&#34;\assets\css\APlayer.min.css&#34;&gt;&lt;script src=&#34;\assets\js\APlayer.min.js&#34; class=&#34;aplayer-secondary-script-marker&#34;&gt;&lt;/script&gt;&lt;script class=&#34;meting-secondary-script-marker&#34; src=&#34;\assets\js\Meting.min.js&#34;&gt;&lt;/script&gt;&lt;p&gt;基岩版开服请跳转另一篇文章 [传送门](&lt;a href=&#34;https://blog.h2aoi.top/2020/minecraftserver/&#34;&gt;如何运用云主机开 Minecraft 官方 BDS 服务器 - (h2aoi.top)&lt;/a&gt;)&lt;/p&gt;
+        <content type="html">&lt;link rel=&#34;stylesheet&#34; class=&#34;aplayer-secondary-style-marker&#34; href=&#34;\assets\css\APlayer.min.css&#34;&gt;&lt;script src=&#34;\assets\js\APlayer.min.js&#34; class=&#34;aplayer-secondary-script-marker&#34;&gt;&lt;/script&gt;&lt;script class=&#34;meting-secondary-script-marker&#34; src=&#34;\assets\js\Meting.min.js&#34;&gt;&lt;/script&gt;&lt;p&gt;基岩版开服请跳转另一篇文章&lt;a href=&#34;https://blog.h2aoi.top/2020/minecraftserver/&#34;&gt;传送门&lt;/a&gt;&lt;/p&gt;
+&lt;span id=&#34;more&#34;&gt;&lt;/span&gt;
 &lt;hr&gt;
 &lt;h2 id=&#34;云主机的选购&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#云主机的选购&#34;&gt;#&lt;/a&gt; 云主机的选购&lt;/h2&gt;
 &lt;p&gt;阿里云和腾讯云都行，我个人用的是腾讯云（因为比阿里云便宜一点）&lt;/p&gt;
@@ -42,7 +43,7 @@
 &lt;p&gt;去这里面下载自己需要版本的服务端 https://mcversions.net/&lt;/p&gt;
 &lt;p&gt;下载获得 server.jar 后打开 Termius 自带的 SFTP，在 /opt 下新建文件夹 mc，把 server.jar 放入文件夹&lt;/p&gt;
 &lt;p&gt;接下来执行&lt;/p&gt;
-&lt;figure class=&#34;highlight bash&#34;&gt;&lt;figcaption data-lang=&#34;bash&#34;&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token builtin class-name&#34;&gt;cd&lt;/span&gt; /opt/mc   &lt;span class=&#34;token comment&#34;&gt;#进入 /opt/mc&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;2&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;java -Xmx2048M -Xms1024M -jar server.jar nogui   &lt;span class=&#34;token comment&#34;&gt;#此处 xmx 是最大内存，xms 是最低内存，根据自己购买的服务器实际情况填&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;p&gt;接下来服务器会崩溃，不用担心&lt;/p&gt;
+&lt;figure class=&#34;highlight bash&#34;&gt;&lt;figcaption data-lang=&#34;bash&#34;&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token builtin class-name&#34;&gt;cd&lt;/span&gt; /opt/mc   &lt;span class=&#34;token comment&#34;&gt;#进入 /opt/mc&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;2&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;java -Xmx2048M -Xms1024M -jar server.jar nogui   &lt;span class=&#34;token comment&#34;&gt;#此处 xmx 是最大内存，xms 是最低内存，根据自己购买的&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;3&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;服务器实际情况填&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;p&gt;接下来服务器会崩溃，不用担心&lt;/p&gt;
 &lt;p&gt;用 SFTP 进入 mc 文件夹，找到 eula.txt，下到本地修改，把 eula = false 改成 eula = true，然后传上去&lt;/p&gt;
 &lt;p&gt;然后重复执行上面的命令&lt;/p&gt;
 &lt;p&gt;停止服务器直接输入 stop 回车即可&lt;/p&gt;
