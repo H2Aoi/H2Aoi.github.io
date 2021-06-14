@@ -15,7 +15,7 @@
         <id>https://blog.h2aoi.top/2020/linuxgalgame/</id>
         <title>论如何在Linux环境下优雅地游玩Galgame</title>
         <link rel="alternate" href="https://blog.h2aoi.top/2020/linuxgalgame/"/>
-        <content type="html">&lt;link rel=&#34;stylesheet&#34; class=&#34;aplayer-secondary-style-marker&#34; href=&#34;\assets\css\APlayer.min.css&#34;&gt;&lt;script src=&#34;\assets\js\APlayer.min.js&#34; class=&#34;aplayer-secondary-script-marker&#34;&gt;&lt;/script&gt;&lt;script class=&#34;meting-secondary-script-marker&#34; src=&#34;\assets\js\Meting.min.js&#34;&gt;&lt;/script&gt;&lt;p&gt;还是发于&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly93d3cuY29vbGFway5jb20vZmVlZC8xNDExOTU0ND9zaGFyZUtleT1ORFJrWmpjME56VXdNakk1Tldaa1kySmlaak1+JmFtcDtzaGFyZVVpZD0xMTcxNDgzJmFtcDtzaGFyZUZyb209Y29tLmNvb2xhcGsubWFya2V0XzExLjAtYmV0YTY=&#34;&gt;酷安&lt;/span&gt;，不过这篇有点水，没啥实质性内容，看看就好&lt;/p&gt;
+        <content type="html">&lt;link rel=&#34;stylesheet&#34; class=&#34;aplayer-secondary-style-marker&#34; href=&#34;\assets\css\APlayer.min.css&#34;&gt;&lt;script src=&#34;\assets\js\APlayer.min.js&#34; class=&#34;aplayer-secondary-script-marker&#34;&gt;&lt;/script&gt;&lt;script class=&#34;meting-secondary-script-marker&#34; src=&#34;\assets\js\Meting.min.js&#34;&gt;&lt;/script&gt;&lt;p&gt;还是发于&lt;a href=&#34;https://www.coolapk.com/feed/14119544?shareKey=NDRkZjc0NzUwMjI5NWZkY2JiZjM~&amp;amp;shareUid=1171483&amp;amp;shareFrom=com.coolapk.market_11.0-beta6&#34;&gt;酷安&lt;/a&gt;，不过这篇有点水，没啥实质性内容，看看就好&lt;/p&gt;
 &lt;span id=&#34;more&#34;&gt;&lt;/span&gt;
 &lt;h2 id=&#34;前言&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#前言&#34;&gt;#&lt;/a&gt; 前言&lt;/h2&gt;
 &lt;p&gt;身为一名酷友，熟练的使用各种操作系统一定不是什么难事。windows,macos,linux 已经被很多酷友熟练的掌握，这也是一件好事。众所周知，windows 是一个适合玩游戏的平台，但是对于 linux 用户来说，这就是一件难事，尤其是对于 linux 环境下需要游玩 galgame 的用户来说，就更痛苦了。因此，我就写了这篇图文，不敢说肯定解决这种问题，可以说是一种探索吧&lt;/p&gt;
@@ -29,14 +29,14 @@
 &lt;p&gt;galgame 作为扎根于 windows 的游戏，当然是要在 windows 环境下运行最适合啦。使用虚拟机的方法具体就不说了，都用 linux 了还会不知道这些吗&lt;/p&gt;
 &lt;h3 id=&#34;使用wine&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#使用wine&#34;&gt;#&lt;/a&gt; 使用 Wine&lt;/h3&gt;
 &lt;p&gt;&lt;strong&gt;wine&lt;/strong&gt; 可以说是 linux 下运行 windows 程序的唯一办法了。基于大部分 galgame 都是 exe 格式，使用 wine 也是我们的一个必要选择了&lt;/p&gt;
-&lt;p&gt;wine 官网： &lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly9hcHBkYi53aW5laHEub3JnLw==&#34;&gt;https://appdb.winehq.org/&lt;/span&gt;&lt;/p&gt;
-&lt;p&gt;按照官网的教程安装好 wine 后，直接来到相应文件夹&lt;img data-src=&#34;https://cdn.jsdelivr.net/gh/H2Aoi/tuchuang@master/img/20201218212231.png&#34; alt=&#34;3190d2d289527c4082d6f5e04b243f5e&#34;&gt;&lt;/p&gt;
+&lt;p&gt;wine 官网： &lt;a href=&#34;https://appdb.winehq.org/&#34;&gt;https://appdb.winehq.org/&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;按照官网的教程安装好 wine 后，直接来到相应文件夹&lt;img src=&#34;https://cdn.jsdelivr.net/gh/H2Aoi/tuchuang@master/img/20201218212231.png&#34; alt=&#34;3190d2d289527c4082d6f5e04b243f5e&#34;&gt;&lt;/p&gt;
 &lt;p&gt;这里选取了几个 Galgame：三色绘恋、茸雪、梦末、nekopara vol1。别问我为什么选这些，&lt;s&gt;因为我只有这些&lt;/s&gt;&lt;/p&gt;
 &lt;p&gt;经过我的测试，这几个 Galgame 中基本没有能运行的，也许是因为这些游戏是 steam 游戏的原因吧。但是这种方法我并不推荐，因为 wine 本体兼容性实在是很低啊&lt;/p&gt;
 &lt;center&gt;
     &lt;img style=&#34;border-radius: 0.3125em;
     box-shadow: 0 2px 4px 0 rgba(34,36,38,.12),0 2px 10px 0 rgba(34,36,38,.08);&#34; 
-    data-src=&#34;https://cdn.jsdelivr.net/gh/H2Aoi/tuchuang@master/img/20201218210857.png&#34;&gt;
+    src=&#34;https://cdn.jsdelivr.net/gh/H2Aoi/tuchuang@master/img/20201218210857.png&#34;&gt;
     &lt;br&gt;
     &lt;div style=&#34;color:orange; border-bottom: 1px solid #d9d9d9;
     display: inline-block;
@@ -46,18 +46,18 @@
 &lt;p&gt;也许某些非 steam 游戏可以运行，反正其他方法都是基于 wine 的，为何不装呢&lt;/p&gt;
 &lt;h3 id=&#34;使用playonlinux&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#使用playonlinux&#34;&gt;#&lt;/a&gt; 使用 Playonlinux&lt;/h3&gt;
 &lt;p&gt;Playonlinux 是一款基于 wine 的程序，它比 wine 兼容性更好&lt;/p&gt;
-&lt;p&gt;Playonlinux 官网：&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cDovL3BsYXlvbmxpbnV4LmNvbQ==&#34;&gt;playonlinux.com&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;Playonlinux 官网：&lt;a href=&#34;http://playonlinux.com&#34;&gt;playonlinux.com&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;安装完成后打开，是这个界面&lt;/p&gt;
-&lt;p&gt;&lt;img data-src=&#34;https://cdn.jsdelivr.net/gh/H2Aoi/tuchuang@master/img/20201218212225.png&#34; alt=&#34;b4a5472e588a03d2eb319494fbbb45de&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://cdn.jsdelivr.net/gh/H2Aoi/tuchuang@master/img/20201218212225.png&#34; alt=&#34;b4a5472e588a03d2eb319494fbbb45de&#34;&gt;&lt;/p&gt;
 &lt;p&gt;选择安装一个程序，再点安装未在列表中的程序&lt;/p&gt;
-&lt;p&gt;选择在新虚拟盘中安装程序，输入一个英文名称，再选配置 wine&lt;img data-src=&#34;https://cdn.jsdelivr.net/gh/H2Aoi/tuchuang@master/img/20201218212220.png&#34; alt=&#34;b4a5472e588a03d2eb319494fbbb45de&#34;&gt;&lt;/p&gt;
-&lt;p&gt;创建虚拟盘这一步，选择游戏支持的系统位数&lt;img data-src=&#34;https://cdn.jsdelivr.net/gh/H2Aoi/tuchuang@master/img/20201218212213.png&#34; alt=&#34;fa39837bf3af110d6ee18df68fca52bf&#34;&gt;&lt;/p&gt;
-&lt;p&gt;再选择安装文件 exe&lt;img data-src=&#34;https://cdn.jsdelivr.net/gh/H2Aoi/tuchuang@master/img/20201218212208.png&#34; alt=&#34;5f593d631e35bc97266a2a534c5a7d0e&#34;&gt;&lt;/p&gt;
+&lt;p&gt;选择在新虚拟盘中安装程序，输入一个英文名称，再选配置 wine&lt;img src=&#34;https://cdn.jsdelivr.net/gh/H2Aoi/tuchuang@master/img/20201218212220.png&#34; alt=&#34;b4a5472e588a03d2eb319494fbbb45de&#34;&gt;&lt;/p&gt;
+&lt;p&gt;创建虚拟盘这一步，选择游戏支持的系统位数&lt;img src=&#34;https://cdn.jsdelivr.net/gh/H2Aoi/tuchuang@master/img/20201218212213.png&#34; alt=&#34;fa39837bf3af110d6ee18df68fca52bf&#34;&gt;&lt;/p&gt;
+&lt;p&gt;再选择安装文件 exe&lt;img src=&#34;https://cdn.jsdelivr.net/gh/H2Aoi/tuchuang@master/img/20201218212208.png&#34; alt=&#34;5f593d631e35bc97266a2a534c5a7d0e&#34;&gt;&lt;/p&gt;
 &lt;p&gt;这样应该就能运行了，三色绘恋应该是可以的&lt;/p&gt;
 &lt;center&gt;
     &lt;img style=&#34;border-radius: 0.3125em;
     box-shadow: 0 2px 4px 0 rgba(34,36,38,.12),0 2px 10px 0 rgba(34,36,38,.08);&#34; 
-    data-src=&#34;https://cdn.jsdelivr.net/gh/H2Aoi/tuchuang@master/img/20201218211356.png&#34;&gt;
+    src=&#34;https://cdn.jsdelivr.net/gh/H2Aoi/tuchuang@master/img/20201218211356.png&#34;&gt;
     &lt;br&gt;
     &lt;div style=&#34;color:orange; border-bottom: 1px solid #d9d9d9;
     display: inline-block;
@@ -65,16 +65,16 @@
     padding: 2px;&#34;&gt;来自贴吧&lt;/div&gt;
 &lt;/center&gt;
 &lt;p&gt;每一次进入游戏都要&lt;strong&gt;重新设置&lt;/strong&gt;一遍，存档都会在的&lt;/p&gt;
-&lt;p&gt;根据网友说法，这两款游戏也是能运行的&lt;img data-src=&#34;https://cdn.jsdelivr.net/gh/H2Aoi/tuchuang@master/img/20201218212200.png&#34; alt=&#34;185081c52be4424b5ce133e374a56abf&#34;&gt;&lt;/p&gt;
+&lt;p&gt;根据网友说法，这两款游戏也是能运行的&lt;img src=&#34;https://cdn.jsdelivr.net/gh/H2Aoi/tuchuang@master/img/20201218212200.png&#34; alt=&#34;185081c52be4424b5ce133e374a56abf&#34;&gt;&lt;/p&gt;
 &lt;h3 id=&#34;使用steam&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#使用steam&#34;&gt;#&lt;/a&gt; 使用 Steam&lt;/h3&gt;
 &lt;p&gt;对没错，就是那个 G 胖的平台 Steam。steam 平台为 linux 用户专门开发了 steam play 这个程序，现在可以说是对 linux 下游戏最好的一个选择了&lt;/p&gt;
 &lt;p&gt;安装完 steam 后打开进入到设置，勾选 “Enable Steam Play for supported titles&amp;quot;和&amp;quot; 为所有其他产品启用 Steam Play&amp;quot;&lt;/p&gt;
-&lt;p&gt;&lt;img data-src=&#34;https://cdn.jsdelivr.net/gh/H2Aoi/tuchuang@master/img/20201218212153.png&#34; alt=&#34;cc96e90aea5d8569f4a99ab32f1e5452&#34;&gt;&lt;/p&gt;
-&lt;p&gt;这时你点进自己的游戏，会发现右边会多出一些东西，这就说明你对该游戏启用了 Steam Play&lt;img data-src=&#34;https://cdn.jsdelivr.net/gh/H2Aoi/tuchuang@master/img/20201218212144.png&#34; alt=&#34;151a488777fc2923e5aeb8415dce4949&#34;&gt;&lt;/p&gt;
-&lt;p&gt;选择左下角的添加游戏，把自己的游戏添加进去。再在游戏属性里面勾上最后一个&lt;img data-src=&#34;https://cdn.jsdelivr.net/gh/H2Aoi/tuchuang@master/img/20201218212136.png&#34; alt=&#34;abcb0fd06fbf1c04c6cf06dcf3d7bd66&#34;&gt;&lt;/p&gt;
-&lt;p&gt;点击开始就可以打开了（不敢说一定打得开，我也打不开）&lt;img data-src=&#34;https://cdn.jsdelivr.net/gh/H2Aoi/tuchuang@master/img/20201218212129.png&#34; alt=&#34;316b40f83ec626d9011c7a175d8395ee&#34;&gt;&lt;/p&gt;
-&lt;p&gt;由于我的下载速度实在是太慢，只好拿出～&lt;s&gt; 划时代大作&lt;/s&gt; Answer The Question 了&lt;img data-src=&#34;https://cdn.jsdelivr.net/gh/H2Aoi/tuchuang@master/img/20201218212122.png&#34; alt=&#34;278a7c5a3f3b94c41532e7dd49a7896e&#34;&gt;&lt;/p&gt;
-&lt;p&gt;可以看到，游戏是可以运行的&lt;img data-src=&#34;https://cdn.jsdelivr.net/gh/H2Aoi/tuchuang@master/img/20201218212117.png&#34; alt=&#34;33a3fd3cf7f5d705e0122bb63ec880e1&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://cdn.jsdelivr.net/gh/H2Aoi/tuchuang@master/img/20201218212153.png&#34; alt=&#34;cc96e90aea5d8569f4a99ab32f1e5452&#34;&gt;&lt;/p&gt;
+&lt;p&gt;这时你点进自己的游戏，会发现右边会多出一些东西，这就说明你对该游戏启用了 Steam Play&lt;img src=&#34;https://cdn.jsdelivr.net/gh/H2Aoi/tuchuang@master/img/20201218212144.png&#34; alt=&#34;151a488777fc2923e5aeb8415dce4949&#34;&gt;&lt;/p&gt;
+&lt;p&gt;选择左下角的添加游戏，把自己的游戏添加进去。再在游戏属性里面勾上最后一个&lt;img src=&#34;https://cdn.jsdelivr.net/gh/H2Aoi/tuchuang@master/img/20201218212136.png&#34; alt=&#34;abcb0fd06fbf1c04c6cf06dcf3d7bd66&#34;&gt;&lt;/p&gt;
+&lt;p&gt;点击开始就可以打开了（不敢说一定打得开，我也打不开）&lt;img src=&#34;https://cdn.jsdelivr.net/gh/H2Aoi/tuchuang@master/img/20201218212129.png&#34; alt=&#34;316b40f83ec626d9011c7a175d8395ee&#34;&gt;&lt;/p&gt;
+&lt;p&gt;由于我的下载速度实在是太慢，只好拿出～&lt;s&gt; 划时代大作&lt;/s&gt; Answer The Question 了&lt;img src=&#34;https://cdn.jsdelivr.net/gh/H2Aoi/tuchuang@master/img/20201218212122.png&#34; alt=&#34;278a7c5a3f3b94c41532e7dd49a7896e&#34;&gt;&lt;/p&gt;
+&lt;p&gt;可以看到，游戏是可以运行的&lt;img src=&#34;https://cdn.jsdelivr.net/gh/H2Aoi/tuchuang@master/img/20201218212117.png&#34; alt=&#34;33a3fd3cf7f5d705e0122bb63ec880e1&#34;&gt;&lt;/p&gt;
 &lt;p&gt;我下载了 LoveChoice 这款游戏，由于缺少 dx11 所以无法运行。不过这游戏有 Linux 版本所以就能运行了。不过我以前试过，相当一部分游戏是可以打开的&lt;/p&gt;
 &lt;p&gt;相同的，有很多游戏都可以通过这种方法运行，具体我就不多说了（没下游戏）&lt;/p&gt;
 &lt;hr&gt;
@@ -83,7 +83,7 @@
 &lt;ul&gt;
 &lt;li&gt;Tricolour Lovestory&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;&lt;img data-src=&#34;https://cdn.jsdelivr.net/gh/H2Aoi/tuchuang@master/img/20210109134636.png&#34; alt=&#34;截图录屏_dde-desktop_20210109110605&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://cdn.jsdelivr.net/gh/H2Aoi/tuchuang@master/img/20210109134636.png&#34; alt=&#34;截图录屏_dde-desktop_20210109110605&#34;&gt;&lt;/p&gt;
 &lt;p&gt;对没错，我库里就这玩意跑得起来，其他都是出现画面后立刻闪退&lt;/p&gt;
 &lt;h3 id=&#34;游玩移植版&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#游玩移植版&#34;&gt;#&lt;/a&gt; 游玩移植版&lt;/h3&gt;
 &lt;p&gt;这个没试过，应该比用 wine 运行效率高一点。可以去 Linux 游戏吧找找&lt;/p&gt;
@@ -93,7 +93,7 @@
 &lt;p&gt;为了自己心爱的女孩，多折腾一下算什么呢？&lt;/p&gt;
 &lt;hr&gt;
 &lt;p&gt;参考链接：&lt;br&gt;
-&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly90aWViYS5iYWlkdS5jb20vZj9rej02MDc2MDcwNTUxJmFtcDttb19kZXZpY2U9MSZhbXA7c3NpZD0wJmFtcDtmcm9tPTEwMTI4NTJxJmFtcDt1aWQ9MCZhbXA7cHU9dXNtQDEsc3pAMzIwXzEwMDQsdGFAaXBob25lXzJfNy4xXzExXzExLjAmYW1wO2JkX3BhZ2VfdHlwZT0xJmFtcDtiYWlkdWlkPTJENTMxODUwODVDRkIzRjQ1Mzg0OTczOTgyMjc1OEQxJmFtcDt0aj1oNV9tb2JpbGVfMV8wXzEwX2w0JmFtcDtyZWZlcmVyPW0uYmFpZHUuY29tP3BuPTAmYW1wOw==&#34;&gt;链接 1&lt;/span&gt;   &lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly90aWViYS5iYWlkdS5jb20vZj9rej01OTE3MDAyNDg3JmFtcDttb19kZXZpY2U9MSZhbXA7c3NpZD0wJmFtcDtmcm9tPTEwMTI4NTJxJmFtcDt1aWQ9MCZhbXA7cHU9dXNtQDEsc3pAMzIwXzEwMDQsdGFAaXBob25lXzJfNy4xXzExXzExLjAmYW1wO2JkX3BhZ2VfdHlwZT0xJmFtcDtiYWlkdWlkPTJENTMxODUwODVDRkIzRjQ1Mzg0OTczOTgyMjc1OEQxJmFtcDt0aj13d3dfbm9ybWFsXzJfMF8xMF90aXRsZSZhbXA7cmVmZXJlcj1tLmJhaWR1LmNvbQ==&#34;&gt;链接 2&lt;/span&gt;&lt;/p&gt;
+&lt;a href=&#34;https://tieba.baidu.com/f?kz=6076070551&amp;amp;mo_device=1&amp;amp;ssid=0&amp;amp;from=1012852q&amp;amp;uid=0&amp;amp;pu=usm@1,sz@320_1004,ta@iphone_2_7.1_11_11.0&amp;amp;bd_page_type=1&amp;amp;baiduid=2D53185085CFB3F453849739822758D1&amp;amp;tj=h5_mobile_1_0_10_l4&amp;amp;referer=m.baidu.com?pn=0&amp;amp;&#34;&gt;链接 1&lt;/a&gt;   &lt;a href=&#34;https://tieba.baidu.com/f?kz=5917002487&amp;amp;mo_device=1&amp;amp;ssid=0&amp;amp;from=1012852q&amp;amp;uid=0&amp;amp;pu=usm@1,sz@320_1004,ta@iphone_2_7.1_11_11.0&amp;amp;bd_page_type=1&amp;amp;baiduid=2D53185085CFB3F453849739822758D1&amp;amp;tj=www_normal_2_0_10_title&amp;amp;referer=m.baidu.com&#34;&gt;链接 2&lt;/a&gt;&lt;/p&gt;
 </content>
         <category term="Galgame" />
         <category term="Linux" />
@@ -103,33 +103,33 @@
         <id>https://blog.h2aoi.top/2020/minecraftserver/</id>
         <title>如何运用云主机开Minecraft官方BDS服务器</title>
         <link rel="alternate" href="https://blog.h2aoi.top/2020/minecraftserver/"/>
-        <content type="html">&lt;link rel=&#34;stylesheet&#34; class=&#34;aplayer-secondary-style-marker&#34; href=&#34;\assets\css\APlayer.min.css&#34;&gt;&lt;script src=&#34;\assets\js\APlayer.min.js&#34; class=&#34;aplayer-secondary-script-marker&#34;&gt;&lt;/script&gt;&lt;script class=&#34;meting-secondary-script-marker&#34; src=&#34;\assets\js\Meting.min.js&#34;&gt;&lt;/script&gt;&lt;p&gt;本文还是第一次发于&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly93d3cuY29vbGFway5jb20vZmVlZC8xMDI0MjExND9zaGFyZUtleT1OelUwTkRCall6STBNR0ppTldaa1l6Z3lZMlF+JmFtcDtzaGFyZVVpZD0xMTcxNDgzJmFtcDtzaGFyZUZyb209Y29tLmNvb2xhcGsubWFya2V0XzExLjAtYmV0YTY=&#34;&gt;酷安&lt;/span&gt;，不过做了点修改，酷安那边就不改了&lt;/p&gt;
+        <content type="html">&lt;link rel=&#34;stylesheet&#34; class=&#34;aplayer-secondary-style-marker&#34; href=&#34;\assets\css\APlayer.min.css&#34;&gt;&lt;script src=&#34;\assets\js\APlayer.min.js&#34; class=&#34;aplayer-secondary-script-marker&#34;&gt;&lt;/script&gt;&lt;script class=&#34;meting-secondary-script-marker&#34; src=&#34;\assets\js\Meting.min.js&#34;&gt;&lt;/script&gt;&lt;p&gt;本文还是第一次发于&lt;a href=&#34;https://www.coolapk.com/feed/10242114?shareKey=NzU0NDBjYzI0MGJiNWZkYzgyY2Q~&amp;amp;shareUid=1171483&amp;amp;shareFrom=com.coolapk.market_11.0-beta6&#34;&gt;酷安&lt;/a&gt;，不过做了点修改，酷安那边就不改了&lt;/p&gt;
 &lt;span id=&#34;more&#34;&gt;&lt;/span&gt;
 &lt;h2 id=&#34;云主机的选购&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#云主机的选购&#34;&gt;#&lt;/a&gt; 云主机的选购&lt;/h2&gt;
 &lt;p&gt;我自己开服用的是&lt;strong&gt;阿里云&lt;/strong&gt;的学生机，一个月才 10 块钱，还是可以的，虽然有点卡。。。。不过有钱的话，阿里云腾讯云都行的&lt;/p&gt;
-&lt;p&gt;百度&lt;s&gt;云翼计划&lt;/s&gt;&lt;strong&gt;开发者成长计划&lt;/strong&gt;或者&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly9kZXZlbG9wZXIuYWxpeXVuLmNvbS9wbGFuL2dyb3ctdXA=&#34;&gt;传送门&lt;/span&gt;，点第一个&lt;img data-src=&#34;https://cdn.jsdelivr.net/gh/H2Aoi/tuchuang@master/img/20201218185555.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;p&gt;百度&lt;s&gt;云翼计划&lt;/s&gt;&lt;strong&gt;开发者成长计划&lt;/strong&gt;或者&lt;a href=&#34;https://developer.aliyun.com/plan/grow-up&#34;&gt;传送门&lt;/a&gt;，点第一个&lt;img src=&#34;https://cdn.jsdelivr.net/gh/H2Aoi/tuchuang@master/img/20201218185555.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
 &lt;p&gt;这个只要低于 24 岁就可以买，还是比较好的&lt;/p&gt;
 &lt;p&gt;选系统镜像，系统选 Ubuntu18.04（最新版本即可）或者 Centos（需要自行解决依赖）&lt;/p&gt;
 &lt;p&gt;购买之后进入 ssh&lt;/p&gt;
 &lt;h2 id=&#34;ssh的配置&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#ssh的配置&#34;&gt;#&lt;/a&gt; ssh 的配置&lt;/h2&gt;
 &lt;p&gt;手机可以选择&lt;strong&gt; juicessh&lt;/strong&gt;，windows 可以选&lt;strong&gt; putty&lt;/strong&gt;，linux 就用&lt;strong&gt;终端&lt;/strong&gt;吧&lt;/p&gt;
 &lt;p&gt;这里用 juicessh 做示范&lt;/p&gt;
-&lt;p&gt;&lt;img data-src=&#34;https://cdn.jsdelivr.net/gh/H2Aoi/tuchuang@master/img/20201218185538.jpg&#34; alt=&#34;31230a38fb05e2f11d4aff8671d6c42b&#34;&gt;&lt;/p&gt;
-&lt;p&gt;点击连接，然后变成这样&lt;img data-src=&#34;https://cdn.jsdelivr.net/gh/H2Aoi/tuchuang@master/img/20201218185549.jpg&#34; alt=&#34;3b695643d11e49bd9af2fb68589880ca&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://cdn.jsdelivr.net/gh/H2Aoi/tuchuang@master/img/20201218185538.jpg&#34; alt=&#34;31230a38fb05e2f11d4aff8671d6c42b&#34;&gt;&lt;/p&gt;
+&lt;p&gt;点击连接，然后变成这样&lt;img src=&#34;https://cdn.jsdelivr.net/gh/H2Aoi/tuchuang@master/img/20201218185549.jpg&#34; alt=&#34;3b695643d11e49bd9af2fb68589880ca&#34;&gt;&lt;/p&gt;
 &lt;p&gt;地址填云服务器的地址，认证就新建一个认证，用户名填 root，密码填设定的密码&lt;/p&gt;
 &lt;p&gt;然后就可以连接啦！记得开放 22 端口，虽然默认是开着的&lt;/p&gt;
 &lt;h2 id=&#34;开服&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#开服&#34;&gt;#&lt;/a&gt; 开服！&lt;/h2&gt;
-&lt;p&gt;连好 ssh，大概是这样的&lt;img data-src=&#34;https://cdn.jsdelivr.net/gh/H2Aoi/tuchuang@master/img/20201218185611.jpg&#34; alt=&#34;aa6add65c9ae5d6ce4f6fe046af0d3a8&#34;&gt;&lt;/p&gt;
+&lt;p&gt;连好 ssh，大概是这样的&lt;img src=&#34;https://cdn.jsdelivr.net/gh/H2Aoi/tuchuang@master/img/20201218185611.jpg&#34; alt=&#34;aa6add65c9ae5d6ce4f6fe046af0d3a8&#34;&gt;&lt;/p&gt;
 &lt;p&gt;这边建议先去添加一些软件源，方法自行百度，这里就不写出来了&lt;/p&gt;
 &lt;p&gt;接下来输入指令&lt;/p&gt;
 &lt;figure class=&#34;highlight bash&#34;&gt;&lt;figcaption data-lang=&#34;bash&#34;&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token function&#34;&gt;sudo&lt;/span&gt; &lt;span class=&#34;token function&#34;&gt;apt-get&lt;/span&gt; update&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;2&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token function&#34;&gt;sudo&lt;/span&gt; &lt;span class=&#34;token function&#34;&gt;apt-get&lt;/span&gt; &lt;span class=&#34;token function&#34;&gt;install&lt;/span&gt; libcurl3 build-essential&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;p&gt;这个玩意需不需要其实我也不太清楚，不过防范于未然嘛&lt;/p&gt;
 &lt;p&gt;然后接着输入&lt;/p&gt;
-&lt;figure class=&#34;highlight shell&#34;&gt;&lt;figcaption data-lang=&#34;Bash&#34;&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token function&#34;&gt;wget&lt;/span&gt; https://minecraft.azureedge.net/bin-linux/bedrock-server-1.16.201.02.zip&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;p&gt;下不动的话可以用&lt;strong&gt; scp&lt;/strong&gt; 指令传上去，具体自己百度。这个链接会有变化，可以到 [这里](&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly93d3cubWluZWNyYWZ0Lm5ldC9lbi11cy9kb3dubG9hZC9zZXJ2ZXIvYmVkcm9jaw==&#34;&gt;Minecraft Server Download | Minecraft&lt;/span&gt;) 获取（选 Ubuntu 那个）&lt;/p&gt;
+&lt;figure class=&#34;highlight shell&#34;&gt;&lt;figcaption data-lang=&#34;Bash&#34;&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token function&#34;&gt;wget&lt;/span&gt; https://minecraft.azureedge.net/bin-linux/bedrock-server-1.16.201.02.zip&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;p&gt;下不动的话可以用&lt;strong&gt; scp&lt;/strong&gt; 指令传上去，具体自己百度。这个链接会有变化，可以到 [这里](&lt;a href=&#34;https://www.minecraft.net/en-us/download/server/bedrock&#34;&gt;Minecraft Server Download | Minecraft&lt;/a&gt;) 获取（选 Ubuntu 那个）&lt;/p&gt;
 &lt;p&gt;解压后进入目录，输入&lt;/p&gt;
-&lt;figure class=&#34;highlight shell&#34;&gt;&lt;figcaption data-lang=&#34;Bash&#34;&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token assign-left variable&#34;&gt;LD_LIBRARY_PATH&lt;/span&gt;&lt;span class=&#34;token operator&#34;&gt;=&lt;/span&gt;. ./bedrock_server&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;p&gt;大概这样就可以了，我开了很久所以是这样的&lt;img data-src=&#34;https://cdn.jsdelivr.net/gh/H2Aoi/tuchuang@master/img/20201218185618.jpg&#34; alt=&#34;fd3ab313ee7e7b21a91d21b1a23326d0&#34;&gt;&lt;/p&gt;
+&lt;figure class=&#34;highlight shell&#34;&gt;&lt;figcaption data-lang=&#34;Bash&#34;&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token assign-left variable&#34;&gt;LD_LIBRARY_PATH&lt;/span&gt;&lt;span class=&#34;token operator&#34;&gt;=&lt;/span&gt;. ./bedrock_server&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;p&gt;大概这样就可以了，我开了很久所以是这样的&lt;img src=&#34;https://cdn.jsdelivr.net/gh/H2Aoi/tuchuang@master/img/20201218185618.jpg&#34; alt=&#34;fd3ab313ee7e7b21a91d21b1a23326d0&#34;&gt;&lt;/p&gt;
 &lt;p&gt;然后。。。就好了。。。才怪&lt;/p&gt;
 &lt;p&gt;进入云服务器控制台安全组&lt;/p&gt;
-&lt;p&gt;添加图里&lt;strong&gt;最上面&lt;/strong&gt;的两条规则（也许只用 UDP）&lt;img data-src=&#34;https://cdn.jsdelivr.net/gh/H2Aoi/tuchuang@master/img/20201218185626.jpeg&#34; alt=&#34;e9c4bcf40c012d99dede843b8f396a09&#34;&gt;&lt;/p&gt;
+&lt;p&gt;添加图里&lt;strong&gt;最上面&lt;/strong&gt;的两条规则（也许只用 UDP）&lt;img src=&#34;https://cdn.jsdelivr.net/gh/H2Aoi/tuchuang@master/img/20201218185626.jpeg&#34; alt=&#34;e9c4bcf40c012d99dede843b8f396a09&#34;&gt;&lt;/p&gt;
 &lt;p&gt;然后是真的好了，也需要重启一下&lt;/p&gt;
 &lt;hr&gt;
 &lt;p&gt;如果想要在退出 ssh 的时候保持运行，就用&lt;strong&gt; screen&lt;/strong&gt; 吧！&lt;/p&gt;
