@@ -8,9 +8,9 @@
     <category term="游戏" />
     <category term="游戏资源" />
     <category term="其他" />
-    <category term="Linux" />
     <category term="Minecraft" />
     <category term="服务器" />
+    <category term="Linux" />
     <entry>
         <id>https://blog.h2aoi.top/2021/minecraftserver2/</id>
         <title>如何运用云主机开MinecraftJava版服务器</title>
@@ -55,9 +55,9 @@
 &lt;figure class=&#34;highlight bash&#34;&gt;&lt;figcaption data-lang=&#34;bash&#34;&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token function&#34;&gt;screen&lt;/span&gt; -ls   &lt;span class=&#34;token comment&#34;&gt;#查看正在运行的终端&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;2&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token comment&#34;&gt;#下面是示例&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;3&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;There is a &lt;span class=&#34;token function&#34;&gt;screen&lt;/span&gt; on:&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;4&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;        &lt;span class=&#34;token number&#34;&gt;14407&lt;/span&gt;.pts-0.VM-0-16-centos      &lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;Detached&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;5&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token number&#34;&gt;1&lt;/span&gt; Socket &lt;span class=&#34;token keyword&#34;&gt;in&lt;/span&gt; /var/run/screen/S-root.&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;6&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token comment&#34;&gt;#可能会看到上面的内容&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;7&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token function&#34;&gt;screen&lt;/span&gt; -r &lt;span class=&#34;token number&#34;&gt;14407&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;h3 id=&#34;服务器的简单配置修改&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#服务器的简单配置修改&#34;&gt;#&lt;/a&gt; 服务器的简单配置修改&lt;/h3&gt;
 &lt;p&gt;把 mc 文件夹内的 server.properties 下载到本地，可以对服务器名称等进行修改，详情请自行百度&lt;/p&gt;
 </content>
-        <category term="Linux" />
         <category term="Minecraft" />
         <category term="服务器" />
+        <category term="Linux" />
         <updated>2021-06-14T13:16:57.903Z</updated>
     </entry>
     <entry>
@@ -67,7 +67,7 @@
         <content type="html">&lt;link rel=&#34;stylesheet&#34; class=&#34;aplayer-secondary-style-marker&#34; href=&#34;\assets\css\APlayer.min.css&#34;&gt;&lt;script src=&#34;\assets\js\APlayer.min.js&#34; class=&#34;aplayer-secondary-script-marker&#34;&gt;&lt;/script&gt;&lt;script class=&#34;meting-secondary-script-marker&#34; src=&#34;\assets\js\Meting.min.js&#34;&gt;&lt;/script&gt;&lt;p&gt;DLsite 自购分享，有需要的可以下载学习&lt;/p&gt;
 &lt;span id=&#34;more&#34;&gt;&lt;/span&gt;
 
-    &lt;div id=&#34;aplayer-BLuUJJSV&#34; class=&#34;aplayer aplayer-tag-marker meting-tag-marker&#34;
+    &lt;div id=&#34;aplayer-OXPLFXTr&#34; class=&#34;aplayer aplayer-tag-marker meting-tag-marker&#34;
          data-id=&#34;1499310872&#34; data-server=&#34;netease&#34; data-type=&#34;song&#34; data-mode=&#34;circulation&#34; data-autoplay=&#34;false&#34; data-mutex=&#34;true&#34; data-listmaxheight=&#34;340px&#34; data-preload=&#34;auto&#34; data-theme=&#34;#ad7a86&#34;
     &gt;&lt;/div&gt;
 &lt;p&gt;&lt;strong&gt;&lt;font size=5&gt;注意：本资源仅供个人学习使用！请于下载后 24 小时内删除本资源所有内容！！&lt;/font&gt;&lt;/strong&gt;&lt;/p&gt;
@@ -301,7 +301,7 @@
 &lt;p&gt;&lt;img src=&#34;https://cdn.jsdelivr.net/gh/H2Aoi/tuchuang@master/img/20210207221357.png&#34; alt=&#34;Snipaste_2021-02-07_21-26-23&#34;&gt;&lt;/p&gt;
 &lt;p&gt;BGM：&lt;/p&gt;
 
-    &lt;div id=&#34;aplayer-zkqRJbcw&#34; class=&#34;aplayer aplayer-tag-marker meting-tag-marker&#34;
+    &lt;div id=&#34;aplayer-AFrqIfTH&#34; class=&#34;aplayer aplayer-tag-marker meting-tag-marker&#34;
          data-id=&#34;32098311&#34; data-server=&#34;netease&#34; data-type=&#34;song&#34; data-mode=&#34;circulation&#34; data-autoplay=&#34;false&#34; data-mutex=&#34;true&#34; data-listmaxheight=&#34;340px&#34; data-preload=&#34;auto&#34; data-theme=&#34;#ad7a86&#34;
     &gt;&lt;/div&gt;
 &lt;ul&gt;
@@ -664,9 +664,9 @@
 &lt;figure class=&#34;highlight shell&#34;&gt;&lt;figcaption data-lang=&#34;Bash&#34;&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token function&#34;&gt;sudo&lt;/span&gt; &lt;span class=&#34;token function&#34;&gt;apt-get&lt;/span&gt; &lt;span class=&#34;token function&#34;&gt;install&lt;/span&gt; &lt;span class=&#34;token function&#34;&gt;screen&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;2&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token function&#34;&gt;screen&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;p&gt;挂起就按 Ctrl+A+D&lt;/p&gt;
 &lt;p&gt;这样退出 ssh 后也可运行&lt;/p&gt;
 </content>
-        <category term="Linux" />
         <category term="Minecraft" />
         <category term="服务器" />
+        <category term="Linux" />
         <updated>2020-12-18T10:16:10.125Z</updated>
     </entry>
     <entry>
@@ -676,7 +676,7 @@
         <content type="html">&lt;link rel=&#34;stylesheet&#34; class=&#34;aplayer-secondary-style-marker&#34; href=&#34;\assets\css\APlayer.min.css&#34;&gt;&lt;script src=&#34;\assets\js\APlayer.min.js&#34; class=&#34;aplayer-secondary-script-marker&#34;&gt;&lt;/script&gt;&lt;script class=&#34;meting-secondary-script-marker&#34; src=&#34;\assets\js\Meting.min.js&#34;&gt;&lt;/script&gt;&lt;p&gt;提取自本人自购光盘，有需要的可以下载学习&lt;/p&gt;
 &lt;span id=&#34;more&#34;&gt;&lt;/span&gt;
 
-    &lt;div id=&#34;aplayer-BaLkSgxD&#34; class=&#34;aplayer aplayer-tag-marker meting-tag-marker&#34;
+    &lt;div id=&#34;aplayer-QaCHpjVG&#34; class=&#34;aplayer aplayer-tag-marker meting-tag-marker&#34;
          data-id=&#34;1460175457&#34; data-server=&#34;netease&#34; data-type=&#34;song&#34; data-mode=&#34;circulation&#34; data-autoplay=&#34;false&#34; data-mutex=&#34;true&#34; data-listmaxheight=&#34;340px&#34; data-preload=&#34;auto&#34; data-theme=&#34;#ad7a86&#34;
     &gt;&lt;/div&gt;
 &lt;p&gt;&lt;strong&gt;&lt;font size=5&gt;注意：本资源仅供个人学习使用！请于下载后 24 小时内删除本资源所有内容！！&lt;/font&gt;&lt;/strong&gt;&lt;/p&gt;
@@ -709,7 +709,7 @@
         <content type="html">&lt;link rel=&#34;stylesheet&#34; class=&#34;aplayer-secondary-style-marker&#34; href=&#34;\assets\css\APlayer.min.css&#34;&gt;&lt;script src=&#34;\assets\js\APlayer.min.js&#34; class=&#34;aplayer-secondary-script-marker&#34;&gt;&lt;/script&gt;&lt;script class=&#34;meting-secondary-script-marker&#34; src=&#34;\assets\js\Meting.min.js&#34;&gt;&lt;/script&gt;&lt;p&gt;本文第一次发于&lt;a href=&#34;https://www.coolapk.com/feed/13463097?shareKey=MGMyZTUyYTk0MGZhNWZjMjNiMjM~&amp;amp;shareUid=1171483&amp;amp;shareFrom=com.coolapk.market_11.0-beta2&#34;&gt;酷安&lt;/a&gt;，但是你安的图文编辑实在是太辣鸡了，所以我整了个这么个博客，用 Markdown 看看效果是不是会好一点&lt;/p&gt;
 &lt;span id=&#34;more&#34;&gt;&lt;/span&gt;
 
-    &lt;div id=&#34;aplayer-MmppaRaH&#34; class=&#34;aplayer aplayer-tag-marker meting-tag-marker&#34;
+    &lt;div id=&#34;aplayer-TfmcWUDU&#34; class=&#34;aplayer aplayer-tag-marker meting-tag-marker&#34;
          data-id=&#34;33737052&#34; data-server=&#34;netease&#34; data-type=&#34;song&#34; data-mode=&#34;circulation&#34; data-autoplay=&#34;false&#34; data-mutex=&#34;true&#34; data-listmaxheight=&#34;340px&#34; data-preload=&#34;auto&#34; data-theme=&#34;#ad7a86&#34;
     &gt;&lt;/div&gt;
 &lt;h2 id=&#34;什么是galgame&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#什么是galgame&#34;&gt;#&lt;/a&gt; 什么是 Galgame&lt;/h2&gt;
@@ -884,7 +884,7 @@
         <content type="html">&lt;link rel=&#34;stylesheet&#34; class=&#34;aplayer-secondary-style-marker&#34; href=&#34;\assets\css\APlayer.min.css&#34;&gt;&lt;script src=&#34;\assets\js\APlayer.min.js&#34; class=&#34;aplayer-secondary-script-marker&#34;&gt;&lt;/script&gt;&lt;script class=&#34;meting-secondary-script-marker&#34; src=&#34;\assets\js\Meting.min.js&#34;&gt;&lt;/script&gt;&lt;p&gt;对于我自身的一些介绍&lt;/p&gt;
 &lt;span id=&#34;more&#34;&gt;&lt;/span&gt;
 
-    &lt;div id=&#34;aplayer-DPuFdcCJ&#34; class=&#34;aplayer aplayer-tag-marker meting-tag-marker&#34;
+    &lt;div id=&#34;aplayer-WZtVnFPd&#34; class=&#34;aplayer aplayer-tag-marker meting-tag-marker&#34;
          data-id=&#34;1484844664&#34; data-server=&#34;netease&#34; data-type=&#34;song&#34; data-mode=&#34;circulation&#34; data-autoplay=&#34;false&#34; data-mutex=&#34;true&#34; data-listmaxheight=&#34;340px&#34; data-preload=&#34;auto&#34; data-theme=&#34;#ad7a86&#34;
     &gt;&lt;/div&gt;
 &lt;h2 id=&#34;我是谁&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#我是谁&#34;&gt;#&lt;/a&gt; 我是谁&lt;/h2&gt;
