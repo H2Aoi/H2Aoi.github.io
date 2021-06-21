@@ -11,16 +11,16 @@
         <category>游戏</category>
         <category>游戏资源</category>
         <category>其他</category>
+        <category>Linux</category>
         <category>Minecraft</category>
         <category>服务器</category>
-        <category>Linux</category>
         <item>
             <guid isPermalink="true">https://blog.h2aoi.top/2021/minecraftserver2/</guid>
             <title>如何运用云主机开MinecraftJava版服务器</title>
             <link>https://blog.h2aoi.top/2021/minecraftserver2/</link>
+            <category>Linux</category>
             <category>Minecraft</category>
             <category>服务器</category>
-            <category>Linux</category>
             <pubDate>Mon, 14 Jun 2021 21:16:57 +0800</pubDate>
             <description><![CDATA[ &lt;link rel=&#34;stylesheet&#34; class=&#34;aplayer-secondary-style-marker&#34; href=&#34;\assets\css\APlayer.min.css&#34;&gt;&lt;script src=&#34;\assets\js\APlayer.min.js&#34; class=&#34;aplayer-secondary-script-marker&#34;&gt;&lt;/script&gt;&lt;script class=&#34;meting-secondary-script-marker&#34; src=&#34;\assets\js\Meting.min.js&#34;&gt;&lt;/script&gt;&lt;p&gt;基岩版开服请跳转另一篇文章&lt;a href=&#34;https://blog.h2aoi.top/2020/minecraftserver/&#34;&gt;传送门&lt;/a&gt;&lt;/p&gt;
 &lt;span id=&#34;more&#34;&gt;&lt;/span&gt;
@@ -67,9 +67,9 @@
             <guid isPermalink="true">https://blog.h2aoi.top/2020/minecraftserver/</guid>
             <title>如何运用云主机开Minecraft官方BDS服务器</title>
             <link>https://blog.h2aoi.top/2020/minecraftserver/</link>
+            <category>Linux</category>
             <category>Minecraft</category>
             <category>服务器</category>
-            <category>Linux</category>
             <pubDate>Fri, 18 Dec 2020 18:16:10 +0800</pubDate>
             <description><![CDATA[ &lt;link rel=&#34;stylesheet&#34; class=&#34;aplayer-secondary-style-marker&#34; href=&#34;\assets\css\APlayer.min.css&#34;&gt;&lt;script src=&#34;\assets\js\APlayer.min.js&#34; class=&#34;aplayer-secondary-script-marker&#34;&gt;&lt;/script&gt;&lt;script class=&#34;meting-secondary-script-marker&#34; src=&#34;\assets\js\Meting.min.js&#34;&gt;&lt;/script&gt;&lt;p&gt;本文还是第一次发于&lt;a href=&#34;https://www.coolapk.com/feed/10242114?shareKey=NzU0NDBjYzI0MGJiNWZkYzgyY2Q~&amp;amp;shareUid=1171483&amp;amp;shareFrom=com.coolapk.market_11.0-beta6&#34;&gt;酷安&lt;/a&gt;，不过做了点修改，酷安那边就不改了&lt;/p&gt;
 &lt;span id=&#34;more&#34;&gt;&lt;/span&gt;
