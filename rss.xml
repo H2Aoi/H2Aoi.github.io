@@ -318,18 +318,17 @@
         </item>
         <item>
             <guid isPermalink="true">https://blog.h2aoi.top/2021/aokanatongren/</guid>
-            <title>《苍之彼方的四重奏》同人游戏制作计划</title>
+            <title>《苍之彼方的四重奏》同人游戏制作计划（已弃坑）</title>
             <link>https://blog.h2aoi.top/2021/aokanatongren/</link>
             <category>Galgame</category>
             <category>游戏</category>
             <pubDate>Sun, 07 Feb 2021 20:56:53 +0800</pubDate>
-            <description><![CDATA[ &lt;link rel=&#34;stylesheet&#34; class=&#34;aplayer-secondary-style-marker&#34; href=&#34;\assets\css\APlayer.min.css&#34;&gt;&lt;script src=&#34;\assets\js\APlayer.min.js&#34; class=&#34;aplayer-secondary-script-marker&#34;&gt;&lt;/script&gt;&lt;script class=&#34;meting-secondary-script-marker&#34; src=&#34;\assets\js\Meting.min.js&#34;&gt;&lt;/script&gt;&lt;p&gt;记录一下苍彼同人游戏的开发过程（目前处于停更状态，高考后恢复）&lt;/p&gt;
+            <description><![CDATA[ &lt;link rel=&#34;stylesheet&#34; class=&#34;aplayer-secondary-style-marker&#34; href=&#34;\assets\css\APlayer.min.css&#34;&gt;&lt;script src=&#34;\assets\js\APlayer.min.js&#34; class=&#34;aplayer-secondary-script-marker&#34;&gt;&lt;/script&gt;&lt;script class=&#34;meting-secondary-script-marker&#34; src=&#34;\assets\js\Meting.min.js&#34;&gt;&lt;/script&gt;&lt;p&gt;~~ 记录一下苍彼同人游戏的开发过程（目前处于停更状态，高考后恢复）~~ 已弃坑，项目在 github 开源&lt;/p&gt;
 &lt;span id=&#34;more&#34;&gt;&lt;/span&gt;
-&lt;p&gt;目前想做的大概就下面&lt;s&gt;几个&lt;/s&gt;一个&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;《苍之彼方的四重奏》Asuka’s After Days&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;这个做好了以后还会有的，耶&lt;/p&gt;
+&lt;p&gt;&lt;s&gt;目前想做的大概就下面&lt;/s&gt;几个&lt;s&gt;一个&lt;/s&gt;&lt;/p&gt;
+&lt;p&gt;&lt;s&gt;- 《苍之彼方的四重奏》Asuka’s After Days&lt;/s&gt;&lt;/p&gt;
+&lt;p&gt;&lt;s&gt;这个做好了以后还会有的，耶&lt;/s&gt;&lt;/p&gt;
+&lt;p&gt;以后没了，我是懒狗，缺各种东西，个人激情不够了&lt;/p&gt;
 &lt;h2 id=&#34;asukas-after-days&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#asukas-after-days&#34;&gt;#&lt;/a&gt; Asuka’s After Days&lt;/h2&gt;
 &lt;p&gt;这玩意目前采用&lt;strong&gt; TynaroBuilder Visual Novel Studio&lt;/strong&gt; 制作，好处是可视化以及多平台兼容，坏处其实也很大&lt;/p&gt;
 &lt;p&gt;打算以后用 Unity 重造，不过是画大饼了&lt;/p&gt;
@@ -341,6 +340,7 @@
 &lt;li class=&#34;task-list-item&#34;&gt;&lt;input type=&#34;checkbox&#34; id=&#34;cbx_3&#34; checked=&#34;true&#34; disabled=&#34;true&#34;&gt;&lt;label for=&#34;cbx_3&#34;&gt; &lt;s&gt;游戏界面编写&lt;/s&gt;&lt;/label&gt;&lt;/li&gt;
 &lt;li class=&#34;task-list-item&#34;&gt;&lt;input type=&#34;checkbox&#34; id=&#34;cbx_4&#34; disabled=&#34;true&#34;&gt;&lt;label for=&#34;cbx_4&#34;&gt; OP&amp;amp;ED 制作（大饼）&lt;/label&gt;&lt;/li&gt;
 &lt;/ul&gt;
+&lt;p&gt;项目已在 github 开源，项目地址：&lt;a href=&#34;https://github.com/H2Aoi/aokana-asuka-after-days&#34;&gt;https://github.com/H2Aoi/aokana-asuka-after-days&lt;/a&gt;&lt;/p&gt;
 &lt;hr&gt;
 &lt;h3 id=&#34;demo10202027&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#demo10202027&#34;&gt;#&lt;/a&gt; Demo1.0(2020.2.7)&lt;/h3&gt;
 &lt;p&gt;一开始制作的版本，未添加任何剧情，纯属技术测试（主要是测试各项功能是否正常）&lt;/p&gt;
@@ -351,7 +351,7 @@
 &lt;p&gt;&lt;img src=&#34;https://cdn.jsdelivr.net/gh/H2Aoi/tuchuang@master/img/20210207221357.png&#34; alt=&#34;Snipaste_2021-02-07_21-26-23&#34;&gt;&lt;/p&gt;
 &lt;p&gt;BGM：&lt;/p&gt;
 
-    &lt;div id=&#34;aplayer-kkZSeuoE&#34; class=&#34;aplayer aplayer-tag-marker meting-tag-marker&#34;
+    &lt;div id=&#34;aplayer-JpTjLraZ&#34; class=&#34;aplayer aplayer-tag-marker meting-tag-marker&#34;
          data-id=&#34;32098311&#34; data-server=&#34;netease&#34; data-type=&#34;song&#34; data-mode=&#34;circulation&#34; data-autoplay=&#34;false&#34; data-mutex=&#34;true&#34; data-listmaxheight=&#34;340px&#34; data-preload=&#34;auto&#34; data-theme=&#34;#ad7a86&#34;
     &gt;&lt;/div&gt;
 &lt;ul&gt;
