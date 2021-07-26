@@ -149,12 +149,9 @@ article code::-webkit-scrollbar-thumb {
   padding: 0 0.5em;
   background: #282c34;
   color: #abb2bf;
-  margin: 0;
+  margin: 25px 0;
   border-radius: 13px;
   overflow: auto;
-}
-.highlight * {
-  font-family: monospace;
 }
 .highlight .line {
   padding: 0 1em;
@@ -211,7 +208,7 @@ article pre code:after {
   background: #282c34;
 }
 article a {
-  transition: all 0.35s ease-out;
+  transition: color 0.35s ease-out;
   color: #ff4e6a;
   text-decoration: none;
   word-wrap: break-word;
@@ -455,15 +452,13 @@ article dd {
 article > table {
   color: #5b6064;
   border-spacing: 0;
-  text-align: center;
   border-collapse: collapse;
-  box-shadow: 0 0 0 1px #eee;
-  display: inline-block;
   max-width: 100%;
   overflow: auto;
   white-space: nowrap;
-  margin: auto;
-  border-radius: 10px;
+  margin: 25px auto;
+  background: transparent;
+  display: block;
 }
 article > table::-webkit-scrollbar {
   width: 6px;
@@ -480,17 +475,13 @@ article > table thead tr {
   background-color: #f8f8f8;
 }
 article > table th {
-  border-right: 1px solid #eee;
+  border: 1px solid #eee;
   padding: 13px 26px;
   font-weight: 400;
 }
 article > table td {
-  border-right: 1px solid #eee;
+  border: 1px solid #eee;
   padding: 13px 26px;
-}
-article > table th:last-child,
-article > table td:last-child {
-  border: none;
 }
 article > table tr {
   background-color: #fff;
@@ -535,6 +526,7 @@ article ul li {
   position: relative;
   padding: 10px 0;
   padding-left: 25px;
+  line-height: 1rem;
 }
 article ul li::before {
   content: '';
@@ -670,7 +662,7 @@ article.nexmoe-py ul li {
   width: calc(14.285714285714286% - 10px);
   margin: 5px;
   border-radius: 10px;
-  border: 1px solid #eee;
+  box-shadow: 0 0 0 1px #eee;
   font-size: 0;
   overflow: hidden;
   padding: 0 !important;
@@ -709,7 +701,7 @@ article.nexmoe-py ul li > a::after {
   display: block;
   width: 100%;
   border: none;
-  padding: 2px 10px;
+  padding: 8px 10px;
   text-align: center;
   overflow: hidden;
   text-overflow: ellipsis;
@@ -840,6 +832,10 @@ body {
   box-sizing: border-box;
   outline: none;
 }
+#nexmoe-header input::-webkit-search-decoration,
+#nexmoe-header input::-webkit-search-cancel-button {
+  display: none !important;
+}
 #nexmoe-header .nexmoe-social {
   padding: 12px;
   font-size: 0;
@@ -860,16 +856,16 @@ body {
 #nexmoe-header .nexmoe-list .nexmoe-list-item {
   padding: 0 36px;
   color: #9ca2a8;
-  transition: all 0.35s ease-out;
   border-radius: 13px;
   margin-bottom: 10px;
   text-align: center;
+  transition: none !important;
 }
-#nexmoe-header .nexmoe-list .nexmoe-list-item.active,
-#nexmoe-header .nexmoe-list .nexmoe-list-item.active i {
+#nexmoe-header .nexmoe-list .nexmoe-list-item.true,
+#nexmoe-header .nexmoe-list .nexmoe-list-item.true i {
   color: #fff;
 }
-#nexmoe-header .nexmoe-list .nexmoe-list-item.active {
+#nexmoe-header .nexmoe-list .nexmoe-list-item.true {
   opacity: 0.9;
   background: #ff4e6a;
   box-shadow: 0 2px 12px #ff4e6a;
@@ -880,7 +876,6 @@ body {
 }
 #nexmoe-header .nexmoe-list .nexmoe-list-item .mdui-list-item-content {
   margin-left: 0px;
-  transition: all 0.35s ease-out;
 }
 #nexmoe-header .nexmoe-widget-wrap {
   box-shadow: 0 0 1rem rgba(161,177,204,0.4);
@@ -953,6 +948,7 @@ body {
   color: #777;
   white-space: normal;
   margin-bottom: 20px;
+  font-size: 12px;
 }
 #nexmoe-header .nexmoe-copyright a {
   color: #ff4e6a;
