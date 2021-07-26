@@ -1,12 +1,12 @@
 {
     "version": "https://jsonfeed.org/version/1",
-    "title": "氢化葵 • All posts by \"其他\" category",
+    "title": "H2AoiのBlog • All posts by \"其他\" category",
     "description": "",
-    "home_page_url": "https://blog.h2aoi.top",
+    "home_page_url": "https://blog.h2aoi.work",
     "items": [
         {
-            "id": "https://blog.h2aoi.top/donate.html",
-            "url": "https://blog.h2aoi.top/donate.html",
+            "id": "https://blog.h2aoi.work/donate.html",
+            "url": "https://blog.h2aoi.work/donate.html",
             "title": "赞助我",
             "date_published": "2020-07-12T16:00:00.000Z",
             "content_html": "<link rel=\"stylesheet\" class=\"aplayer-secondary-style-marker\" href=\"\\assets\\css\\APlayer.min.css\"><script src=\"\\assets\\js\\APlayer.min.js\" class=\"aplayer-secondary-script-marker\"></script><script class=\"meting-secondary-script-marker\" src=\"\\assets\\js\\Meting.min.js\"></script><p>懂得都懂</p>\n<span id=\"more\"></span>\n<h2 id=\"爱发电\"><a class=\"markdownIt-Anchor\" href=\"#爱发电\">#</a> 爱发电</h2>\n<p><a href=\"https://afdian.net/@H2Aoi\">https://afdian.net/@H2Aoi</a></p>\n<p>（不推荐，手续费过高）</p>\n<h2 id=\"二维码\"><a class=\"markdownIt-Anchor\" href=\"#二维码\">#</a> 二维码</h2>\n<p><img src=\"https://cdn.jsdelivr.net/gh/H2Aoi/tuchuang@master/img/20210326190019.jpg\" alt=\"6d0a98551ef1f593\"></p>\n<p><img src=\"https://cdn.jsdelivr.net/gh/H2Aoi/tuchuang@master/img/20210326190025.jpg\" alt=\"-6744639833878665\"></p>\n<h2 id=\"赞助单\"><a class=\"markdownIt-Anchor\" href=\"#赞助单\">#</a> 赞助单</h2>\n<p>还没有人赞助我 Orz</p>\n",

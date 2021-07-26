@@ -1,8 +1,8 @@
 <?xml version="1.0"?>
 <rss version="2.0">
     <channel>
-        <title>氢化葵 • Posts by &#34;其他&#34; category</title>
-        <link>https://blog.h2aoi.top</link>
+        <title>H2AoiのBlog • Posts by &#34;其他&#34; category</title>
+        <link>https://blog.h2aoi.work</link>
         <description></description>
         <language>zh-CN</language>
         <pubDate>Mon, 13 Jul 2020 00:00:00 +0800</pubDate>
@@ -13,10 +13,12 @@
         <category>其他</category>
         <category>Minecraft</category>
         <category>服务器</category>
+        <category>游戏资源</category>
+        <category>音频</category>
         <item>
-            <guid isPermalink="true">https://blog.h2aoi.top/donate.html</guid>
+            <guid isPermalink="true">https://blog.h2aoi.work/donate.html</guid>
             <title>赞助我</title>
-            <link>https://blog.h2aoi.top/donate.html</link>
+            <link>https://blog.h2aoi.work/donate.html</link>
             <category>其他</category>
             <pubDate>Mon, 13 Jul 2020 00:00:00 +0800</pubDate>
             <description><![CDATA[ &lt;link rel=&#34;stylesheet&#34; class=&#34;aplayer-secondary-style-marker&#34; href=&#34;\assets\css\APlayer.min.css&#34;&gt;&lt;script src=&#34;\assets\js\APlayer.min.js&#34; class=&#34;aplayer-secondary-script-marker&#34;&gt;&lt;/script&gt;&lt;script class=&#34;meting-secondary-script-marker&#34; src=&#34;\assets\js\Meting.min.js&#34;&gt;&lt;/script&gt;&lt;p&gt;懂得都懂&lt;/p&gt;
