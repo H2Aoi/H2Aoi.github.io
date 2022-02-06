@@ -2,6 +2,13 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://blog.h2aoi.work/2021/aokanatongren/</loc>
+    
+    <lastmod>2022-02-06</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>https://blog.h2aoi.work/PY.html</loc>
     
     <lastmod>2022-01-02</lastmod>
@@ -58,13 +65,6 @@
   </url>
   
   <url>
-    <loc>https://blog.h2aoi.work/2021/aokanatongren/</loc>
-    
-    <lastmod>2021-07-26</lastmod>
-    
-  </url>
-  
-  <url>
     <loc>https://blog.h2aoi.work/2021/dohnadohna/</loc>
     
     <lastmod>2021-07-26</lastmod>
@@ -102,7 +102,7 @@
 
   <url>
     <loc>https://blog.h2aoi.work/</loc>
-    <lastmod>2022-01-02</lastmod>
+    <lastmod>2022-02-06</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>
@@ -110,56 +110,56 @@
   
   <url>
     <loc>https://blog.h2aoi.work/tags/Galgame/</loc>
-    <lastmod>2022-01-02</lastmod>
+    <lastmod>2022-02-06</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>https://blog.h2aoi.work/tags/%E9%9F%B3%E9%A2%91/</loc>
-    <lastmod>2022-01-02</lastmod>
+    <lastmod>2022-02-06</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>https://blog.h2aoi.work/tags/%E6%B8%B8%E6%88%8F/</loc>
-    <lastmod>2022-01-02</lastmod>
+    <lastmod>2022-02-06</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>https://blog.h2aoi.work/tags/%E6%B8%B8%E6%88%8F%E8%B5%84%E6%BA%90/</loc>
-    <lastmod>2022-01-02</lastmod>
+    <lastmod>2022-02-06</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>https://blog.h2aoi.work/tags/%E5%85%B6%E4%BB%96/</loc>
-    <lastmod>2022-01-02</lastmod>
+    <lastmod>2022-02-06</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>https://blog.h2aoi.work/tags/Linux/</loc>
-    <lastmod>2022-01-02</lastmod>
+    <lastmod>2022-02-06</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>https://blog.h2aoi.work/tags/Minecraft/</loc>
-    <lastmod>2022-01-02</lastmod>
+    <lastmod>2022-02-06</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>https://blog.h2aoi.work/tags/%E6%9C%8D%E5%8A%A1%E5%99%A8/</loc>
-    <lastmod>2022-01-02</lastmod>
+    <lastmod>2022-02-06</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
@@ -168,21 +168,21 @@
   
   <url>
     <loc>https://blog.h2aoi.work/categories/Galgame/</loc>
-    <lastmod>2022-01-02</lastmod>
+    <lastmod>2022-02-06</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>https://blog.h2aoi.work/categories/%E5%85%B6%E4%BB%96/</loc>
-    <lastmod>2022-01-02</lastmod>
+    <lastmod>2022-02-06</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>https://blog.h2aoi.work/categories/%E6%B8%B8%E6%88%8F/</loc>
-    <lastmod>2022-01-02</lastmod>
+    <lastmod>2022-02-06</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>

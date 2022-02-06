@@ -334,16 +334,16 @@
 &lt;ul&gt;
 &lt;li&gt;一个像样的标题界面 + 主界面 BGM（与本篇主界面 BGM 一致）&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;&lt;img src=&#34;https://cdn.jsdelivr.net/gh/H2Aoi/tuchuang@master/img/20210207221357.png&#34; alt=&#34;Snipaste_2021-02-07_21-26-23&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img data-fancybox=&#34;gallery&#34; data-sizes=&#34;auto&#34; data-src=&#34;https://cdn.jsdelivr.net/gh/H2Aoi/tuchuang@master/img/20210207221357.png&#34; alt=&#34;Snipaste_2021-02-07_21-26-23&#34; class=&#34;lazyload&#34;&gt;&lt;/p&gt;
 &lt;p&gt;BGM：&lt;/p&gt;
 
-    &lt;div id=&#34;aplayer-mgMiKXXF&#34; class=&#34;aplayer aplayer-tag-marker meting-tag-marker&#34;
+    &lt;div id=&#34;aplayer-IyTQtWxN&#34; class=&#34;aplayer aplayer-tag-marker meting-tag-marker&#34;
          data-id=&#34;32098311&#34; data-server=&#34;netease&#34; data-type=&#34;song&#34; data-mode=&#34;circulation&#34; data-autoplay=&#34;false&#34; data-mutex=&#34;true&#34; data-listmaxheight=&#34;340px&#34; data-preload=&#34;auto&#34; data-theme=&#34;#ad7a86&#34;
     &gt;&lt;/div&gt;
 &lt;ul&gt;
 &lt;li&gt;一个像样的游戏界面（&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;&lt;img src=&#34;https://cdn.jsdelivr.net/gh/H2Aoi/tuchuang@master/img/20210207221419.png&#34; alt=&#34;Snipaste_2021-02-07_21-33-04&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img data-fancybox=&#34;gallery&#34; data-sizes=&#34;auto&#34; data-src=&#34;https://cdn.jsdelivr.net/gh/H2Aoi/tuchuang@master/img/20210207221419.png&#34; alt=&#34;Snipaste_2021-02-07_21-33-04&#34; class=&#34;lazyload&#34;&gt;&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;保存 / 读取进度等各项功能&lt;/li&gt;
 &lt;/ul&gt;
@@ -358,22 +358,21 @@
 
 
 &lt;div style=&#34;position: relative; width: 100%; height: 0; padding-bottom: 75%;&#34;&gt;
-    &lt;iframe src=&#34;//player.bilibili.com/player.html?aid=626703242&amp;bvid=BV1ft4y1D7nV&amp;cid=221970438&amp;page=1&#34; scrolling=&#34;no&#34; border=&#34;0&#34; frameborder=&#34;no&#34; framespacing=&#34;0&#34; allowfullscreen=&#34;true&#34; style=&#34;position: absolute; width: 100%; height: 100%; left: 0; top: 0;&#34;&gt;
+    &lt;iframe src=&#34;//player.bilibili.com/player.html?aid=296240861&amp;bvid=BV1TF411J77Z&amp;cid=498663893&amp;page=1&#34; scrolling=&#34;no&#34; border=&#34;0&#34; frameborder=&#34;no&#34; framespacing=&#34;0&#34; allowfullscreen=&#34;true&#34; style=&#34;position: absolute; width: 100%; height: 100%; left: 0; top: 0;&#34;&gt;
     &lt;/iframe&gt;
 &lt;/div&gt;
-
 
 
 &lt;p&gt;该版本附加内容&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;比较像样的剧情（搬运工）&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;&lt;img src=&#34;https://cdn.jsdelivr.net/gh/H2Aoi/tuchuang@master/img/20210207221428.png&#34; alt=&#34;Snipaste_2021-02-07_21-45-55&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img data-fancybox=&#34;gallery&#34; data-sizes=&#34;auto&#34; data-src=&#34;https://cdn.jsdelivr.net/gh/H2Aoi/tuchuang@master/img/20210207221428.png&#34; alt=&#34;Snipaste_2021-02-07_21-45-55&#34; class=&#34;lazyload&#34;&gt;&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;BGM 平滑切换&lt;/li&gt;
 &lt;li&gt;Demo 结束提示&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;&lt;img src=&#34;https://cdn.jsdelivr.net/gh/H2Aoi/tuchuang@master/img/20210207221436.png&#34; alt=&#34;Snipaste_2021-02-07_21-48-39&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img data-fancybox=&#34;gallery&#34; data-sizes=&#34;auto&#34; data-src=&#34;https://cdn.jsdelivr.net/gh/H2Aoi/tuchuang@master/img/20210207221436.png&#34; alt=&#34;Snipaste_2021-02-07_21-48-39&#34; class=&#34;lazyload&#34;&gt;&lt;/p&gt;
 &lt;p&gt;&lt;font size =5&gt;&lt;strong&gt;差不多就这样，现在就是缺个剧本，有意向可以在下面留言&lt;/strong&gt;&lt;/font&gt;&lt;/p&gt;
 &lt;hr&gt;
 &lt;p&gt;我做苍彼同人游戏纯用爱发电，也就图个乐吧，可能会弃坑（大概率不会）&lt;/p&gt;
